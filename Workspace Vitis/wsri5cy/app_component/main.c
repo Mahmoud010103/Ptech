@@ -1,0 +1,222 @@
+#include "xil_io.h"
+#include "xparameters.h"
+#include "sleep.h"
+#include "xil_cache.h"
+#include "xil_printf.h"
+
+#define BRAM_INSTR_BASE   0x44000000
+#define BRAM_DATA_BASE    0x42000000
+
+uint32_t riscv_code[] = {
+0x17c0006f,
+0x1780006f,
+0x1740006f,
+0x1700006f,
+0x16c0006f,
+0x1680006f,
+0x1640006f,
+0x1600006f,
+0x15c0006f,
+0x1580006f,
+0x1540006f,
+0x1500006f,
+0x14c0006f,
+0x1480006f,
+0x1440006f,
+0x1400006f,
+0x13c0006f,
+0x1380006f,
+0x1340006f,
+0x1300006f,
+0x12c0006f,
+0x1280006f,
+0x1240006f,
+0x1200006f,
+0x11c0006f,
+0x1180006f,
+0x1140006f,
+0x1100006f,
+0x10c0006f,
+0x1080006f,
+0x1040006f,
+0x1000006f,
+0x00c0006f,
+0x0f80006f,
+0x0f40006f,
+0x30501073,
+0x00000093,
+0x00000113,
+0x00000193,
+0x00000213,
+0x00000293,
+0x00000313,
+0x00000393,
+0x00000413,
+0x00000493,
+0x00000513,
+0x00000593,
+0x00000613,
+0x00000693,
+0x00000713,
+0x00000793,
+0x00000813,
+0x00000893,
+0x00000913,
+0x00000993,
+0x00000a13,
+0x00000a93,
+0x00000b13,
+0x00000b93,
+0x00000c13,
+0x00000c93,
+0x00000d13,
+0x00000d93,
+0x00000e13,
+0x00000e93,
+0x00000f13,
+0x00000f93,
+0xfe002117,
+0xef410113,
+0xfe000197,
+0x6ec18193,
+0xfe000517,
+0xee450513,
+0xfe000597,
+0xedc58593,
+0x00000617,
+0x17460613,
+0x00b55c63,
+0x00062283,
+0x00552023,
+0x00450513,
+0x00460613,
+0xfeb548e3,
+0xfe000517,
+0xeb450513,
+0xfe000597,
+0xeac58593,
+0x00b55863,
+0x00052023,
+0x00450513,
+0xfeb54ce3,
+0x00000513,
+0x00000593,
+0x0e4000ef,
+0x0000006f,
+0xf8010113,
+0x00112023,
+0x00512223,
+0x00612423,
+0x00712623,
+0x00a12823,
+0x00b12a23,
+0x00c12c23,
+0x00d12e23,
+0x02e12023,
+0x02f12223,
+0x03012423,
+0x03112623,
+0x03c12823,
+0x03d12a23,
+0x03e12c23,
+0x03f12e23,
+0x7b0022f3,
+0x7b102373,
+0x7b2023f3,
+0x04512023,
+0x04612223,
+0x04712423,
+0x7b4022f3,
+0x7b502373,
+0x7b6023f3,
+0x04512623,
+0x04612823,
+0x04712a23,
+0x04c12283,
+0x05012303,
+0x05412383,
+0x7b429073,
+0x7b531073,
+0x7b639073,
+0x04012283,
+0x04412303,
+0x04812383,
+0x7b029073,
+0x7b131073,
+0x7b239073,
+0x00012083,
+0x00412283,
+0x08010113,
+0x30200073,
+0xff010113,
+0x00a12623,
+0x00c12783,
+0x00079663,
+0x01010113,
+0x00008067,
+0x00c12783,
+0xfff78793,
+0x00f12623,
+0xfe5ff06f,
+0xff010113,
+0x00812423,
+0x00912223,
+0x01212023,
+0x00112623,
+0x400007b7,
+0x0007a437,
+0x0007a223,
+0x400004b7,
+0xfff00913,
+0x12040413,
+0x00040513,
+0x0124a023,
+0xfa5ff0ef,
+0x00040513,
+0x0004a023,
+0xf99ff0ef,
+0xfe9ff06f,
+};
+
+int main() {
+    int nb_instructions, i;
+    uint32_t valeur_lue;
+    
+    xil_printf("\n\r init DMEM a 0...\n\r");
+    for(i = 0; i < 64; i++) {
+        Xil_Out32(BRAM_DATA_BASE + (i * 4), 0x00000000);
+    }
+    Xil_DCacheFlushRange(BRAM_DATA_BASE, 256);
+
+    xil_printf("\n\r chargement du programme RISC-V dans la memoire\n\r");
+    
+    nb_instructions = sizeof(riscv_code) / sizeof(uint32_t);
+    xil_printf("nombre d'instructions : %d\n\r", nb_instructions);
+    
+    for(i = 0; i < nb_instructions; i++) {
+        Xil_Out32(BRAM_INSTR_BASE + (i * 4), riscv_code[i]);
+    }
+    Xil_DCacheFlushRange(BRAM_INSTR_BASE, sizeof(riscv_code));
+    
+    
+    xil_printf("attente de 10 secondes...\n\r");
+    sleep(10);
+    
+
+Xil_DCacheInvalidateRange(BRAM_DATA_BASE, 256);
+    
+    valeur_lue = Xil_In32(BRAM_DATA_BASE);
+    xil_printf("valeur lue a l'adresse 0 : %d\n\r", valeur_lue);
+    
+    if(valeur_lue == 30) {
+        xil_printf("succes : le calcule est bon !\n\r");
+    } else {
+        xil_printf("echec : valeur incorrecte\n\r");
+    }
+    
+    while(1) {
+        sleep(1);
+    }
+    
+    return 0;
+}
