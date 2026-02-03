@@ -1,7 +1,4 @@
 
-#ifndef CNN_H
-#define CNN_H
-
 float Relu(float x) {
     if (x < 0){
         return 0;
@@ -176,4 +173,3 @@ int give_prediction(float input[10]) {
     return max_pos;
 }
 
-#endif

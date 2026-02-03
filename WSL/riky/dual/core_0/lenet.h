@@ -1,5 +1,4 @@
-#ifndef LENET_H
-#define LENET_H
+
 
 #define CSR_PCER   0x7A0
 #define CSR_PCMR   0x7A1
@@ -44,13 +43,14 @@
         volatile int *ptr_tempsc0  = (int *) 0x4200C01C; 
         *ptr_tempsc0 = cycles_end - cycles_start;
         *token_l4 = 1;
-        break;
+        volatile int *ptr_debug = (int *) 0x4200C000; 
+        *ptr_debug = 999;
+
     }
 #endif
 
 #ifdef CONV_3
-   
-    int cycles_startc1=0, cycles_endc1=0;
+ int cycles_startc1=0, cycles_endc1=0;
 
     if (*token_l4 == 1) {
     asm volatile ("csrw %0, %1" : : "i"(CSR_PCMR), "r"(0x1));
@@ -91,8 +91,6 @@
      
         *ptr_result_pred = predicted_value;
         *ptr_temps = cycles_endc1 - cycles_startc1;
-        break;
     }
 #endif
 
-#endif
