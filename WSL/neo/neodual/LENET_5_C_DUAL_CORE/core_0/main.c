@@ -18,9 +18,10 @@ void __neorv32_uart_putc(int c) { (void)c; }
 
 int main_core1(void) {
     neorv32_rte_setup();
-    
+
     while(1) {
-        #include "mapping1.h"
+             #include "mapping1.h"
+
         #include "../share/lenet.h"
     }
     return 0;
@@ -30,9 +31,9 @@ int main(void) {
     neorv32_rte_setup();
     
     neorv32_smp_launch(main_core1, (uint8_t*)core1_stack, sizeof(core1_stack));
-    
+
     while(1) {
-        #include "mapping.h"
+    #include "mapping.h"
 
         #include "../share/lenet.h"
     }
