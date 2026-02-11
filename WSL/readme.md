@@ -74,7 +74,9 @@ echo "};" >> code_result.txt
 ### Avec Toolchain PULP (Instructions xpulpv2)
 
 **Important** : GCC 7 requis pour les instructions PULP
-
+```bash
+export PATH=/opt/riscv-pulp-gcc7/bin:$PATH
+```
 ```bash
 riscv32-unknown-elf-gcc \
     -march=rv32imcxpulpv2 \
@@ -91,7 +93,10 @@ echo "uint32_t riscv_code[] = {" > code_result.txt && \
 hexdump -v -e '1/4 "0x%08x,\n"' nomfichier.bin >> code_result.txt && \
 echo "};" >> code_result.txt
 ```
-
+Pour vérifier la version du gcc
+```bash
+riscv32-unknown-elf-gcc --version
+```
 ### Avec xPack GCC 13 - Mode Monocore
 
 ```bash
