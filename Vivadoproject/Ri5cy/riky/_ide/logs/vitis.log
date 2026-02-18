@@ -1,0 +1,1951 @@
+09:24:29 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:24:29 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:24:29 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw
+09:24:33 INFO  : [INFO]: Initializing repositories
+09:24:33 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+09:24:33 INFO  : Successfully created repository data at C:\Users\MahmoudHc\Desktop\temp\riky/_ide\.wsdata
+09:24:33 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD9037648744917910538 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:24:34 INFO  : Embedded Template List generated successfully
+09:24:49 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+09:24:49 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+09:25:01 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt exists. Files will be overwritten
+09:25:01 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+09:25:01 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+09:25:01 INFO  : -board_dts 
+09:25:01 INFO  : -include_dts 
+09:25:01 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+09:25:01 INFO  : -zocl disable
+09:25:01 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+09:25:01 INFO  : SDT generated successfully
+09:25:01 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+09:25:01 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+09:25:09 INFO  : CPU List generated successfully
+09:25:26 INFO  : Platform platform creation started.
+09:25:26 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:25:26 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:25:28 INFO  : CPU List generated successfully
+09:25:28 INFO  : SDT generated successfully.
+09:25:28 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+09:25:28 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+09:25:28 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+09:25:28 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:25:28 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:25:28 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:25:28 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:26:06 INFO  : [INFO]: Starting domain creation
+09:26:06 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:26:06 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:26:06 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:26:06 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:26:06 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+09:26:06 INFO  : [INFO]: Starting domain creation
+09:26:06 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:26:06 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:26:06 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:26:06 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:26:06 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:26:06 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:26:08 INFO  : Successfully validated template zynq_fsbl
+09:26:08 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:26:16 INFO  : [INFO]: Generating Linker script for zynq_fsbl
+09:26:16 INFO  : [INFO]: Successfully Created Application sources at C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl
+09:26:16 INFO  : Successfully created Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:26:16 INFO  : Platform FSBL Boot domain added successfully.
+09:26:16 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky\platform
+09:26:16 INFO  : Platform creation finished successfully.
+09:26:16 INFO  : Platform Quick Build initiated.
+09:26:17 INFO  : Generating Export directory
+09:26:18 INFO  : Generated platform metadata for creating application(s) based on platform platform.
+09:26:28 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:26:29 INFO  : Successfully validated template empty_application
+09:27:05 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -t empty_application -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -n app_component -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:27:05 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t empty_application -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:27:06 INFO  : Successfully validated template empty_application
+09:27:06 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -t empty_application -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -n app_component -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:27:13 INFO  : [INFO]: Generating Linker script for empty_application
+09:27:13 INFO  : [INFO]: Successfully Created Application sources at C:/Users/MahmoudHc/Desktop/temp/riky/app_component/src
+09:27:13 INFO  : Successfully created Application C:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:27:13 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+09:27:13 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:27:13 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:27:13 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky\app_component
+09:28:41 INFO  : connection terminated
+09:28:41 INFO  : connection terminated
+09:28:41 INFO  : scheduling shutdown timer for 2 seconds ...
+09:28:44 INFO  : Terminating Vitis C++ Server
+09:28:44 INFO  : Vitis C++ Server terminated
+09:39:17 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:39:18 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:39:18 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD3895288321899346153 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:39:19 INFO  : Embedded Template List generated successfully
+09:39:39 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+09:39:39 INFO  : BSP build will be initiated for Domain zynq_fsbl
+09:39:39 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:39 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:39 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:39 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : Domain reconfigured successfully
+09:39:39 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:39 INFO  : Domain reconfigured successfully
+09:39:39 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:39 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:39 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:39:57 INFO  : Domain build successfully
+09:39:58 INFO  : Domain build successfully
+09:39:58 INFO  : Generating Boot ELFs
+09:39:58 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:39:58 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:39:59 INFO  : [INFO]: Retargeting app
+09:39:59 INFO  : [INFO]: Updating link libraries based on new domain
+09:39:59 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:39:59 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:39:59 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:06 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:06 INFO  : Generating Export directory
+09:40:07 INFO  : Platform Build Finished successfully.
+09:40:07 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:07 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:08 INFO  : [INFO]: Retargeting app
+09:40:08 INFO  : [INFO]: Updating link libraries based on new domain
+09:40:08 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:40:08 INFO  : Initiating build for the app_component component.
+09:40:08 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:08 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:13 ERROR : app_component build failed. 
+09:42:42 INFO  : connection terminated
+09:42:43 INFO  : connection terminated
+09:42:43 INFO  : scheduling shutdown timer for 2 seconds ...
+09:42:45 INFO  : Terminating Vitis C++ Server
+09:42:45 INFO  : Vitis C++ Server terminated
+09:43:54 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:43:55 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:43:55 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD13242186559074700697 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:43:56 INFO  : Embedded Template List generated successfully
+09:44:04 INFO  : connection terminated
+09:44:04 INFO  : connection terminated
+09:44:04 INFO  : scheduling shutdown timer for 2 seconds ...
+09:44:06 INFO  : Terminating Vitis C++ Server
+09:44:07 INFO  : Vitis C++ Server terminated
+09:44:33 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:44:34 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:44:34 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD1740474659478709260 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:44:35 INFO  : Embedded Template List generated successfully
+09:44:57 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+09:44:57 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:57 INFO  : BSP build will be initiated for Domain zynq_fsbl
+09:44:57 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:57 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:57 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:57 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:57 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:58 INFO  : Domain reconfigured successfully
+09:44:58 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:58 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:58 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:44:58 INFO  : Domain reconfigured successfully
+09:44:58 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:58 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:58 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:44:59 INFO  : Domain build successfully
+09:44:59 INFO  : Domain build successfully
+09:44:59 INFO  : Generating Boot ELFs
+09:44:59 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:44:59 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:45:00 INFO  : [INFO]: Retargeting app
+09:45:00 INFO  : [INFO]: Updating link libraries based on new domain
+09:45:00 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:45:00 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:45:00 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:45:03 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:45:03 INFO  : Generating Export directory
+09:45:04 INFO  : Platform Build Finished successfully.
+09:45:05 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:45:05 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:45:05 INFO  : [INFO]: Retargeting app
+09:45:05 INFO  : [INFO]: Updating link libraries based on new domain
+09:45:05 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:45:05 INFO  : Initiating build for the app_component component.
+09:45:05 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:45:05 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:47:13 INFO  : BSP build will be initiated for Domain zynq_fsbl
+09:47:13 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+09:47:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:13 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:13 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:13 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:13 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:14 INFO  : Domain reconfigured successfully
+09:47:14 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:14 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:14 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:47:14 INFO  : Domain reconfigured successfully
+09:47:14 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:14 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:14 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:47:15 INFO  : Domain build successfully
+09:47:16 INFO  : Domain build successfully
+09:47:16 INFO  : Generating Boot ELFs
+09:47:16 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:47:16 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:47:16 INFO  : [INFO]: Retargeting app
+09:47:16 INFO  : [INFO]: Updating link libraries based on new domain
+09:47:16 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:47:16 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:47:16 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:47:19 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:47:19 INFO  : Generating Export directory
+09:47:20 INFO  : Platform Build Finished successfully.
+09:47:21 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:47:21 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:47:22 INFO  : [INFO]: Retargeting app
+09:47:22 INFO  : [INFO]: Updating link libraries based on new domain
+09:47:22 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:47:22 INFO  : Initiating build for the app_component component.
+09:47:22 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:47:22 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:12:12 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:12:12 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:12:12 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:12 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:12 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:12 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:13 INFO  : Domain reconfigured successfully
+10:12:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:13 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:13 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:12:13 INFO  : Domain reconfigured successfully
+10:12:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:13 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:13 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:12:14 INFO  : Domain build successfully
+10:12:15 INFO  : Domain build successfully
+10:12:15 INFO  : Generating Boot ELFs
+10:12:15 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:12:15 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:12:15 INFO  : [INFO]: Retargeting app
+10:12:15 INFO  : [INFO]: Updating link libraries based on new domain
+10:12:15 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+10:12:15 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:12:15 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:12:18 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:12:18 INFO  : Generating Export directory
+10:12:19 INFO  : Platform Build Finished successfully.
+10:12:20 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:12:20 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:12:20 INFO  : [INFO]: Retargeting app
+10:12:20 INFO  : [INFO]: Updating link libraries based on new domain
+10:12:20 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+10:12:20 INFO  : Initiating build for the app_component component.
+10:12:20 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:12:21 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:14:54 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:14:54 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:14:54 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:54 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:54 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:54 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:54 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:54 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:55 INFO  : Domain reconfigured successfully
+10:14:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:55 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:55 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:14:55 INFO  : Domain reconfigured successfully
+10:14:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:55 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:55 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:14:56 INFO  : Domain build successfully
+10:14:56 INFO  : Domain build successfully
+10:14:56 INFO  : Generating Boot ELFs
+10:14:56 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:14:56 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:14:57 INFO  : [INFO]: Retargeting app
+10:14:57 INFO  : [INFO]: Updating link libraries based on new domain
+10:14:57 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+10:14:57 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:14:57 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:15:00 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:15:00 INFO  : Generating Export directory
+10:15:01 INFO  : Platform Build Finished successfully.
+10:15:01 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:15:01 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:15:02 INFO  : [INFO]: Retargeting app
+10:15:02 INFO  : [INFO]: Updating link libraries based on new domain
+10:15:02 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+10:15:02 INFO  : Initiating build for the app_component component.
+10:15:02 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:15:02 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:17:19 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:17:19 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:17:37 INFO  : XSDB server has started successfully from frontend.
+10:17:37 INFO  : It has taken  5secs.
+10:17:38 INFO  : Connection to XSDB Server established.
+10:17:38 INFO  : It has taken  1secs.
+10:17:38 INFO  : Done
+10:17:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:17:47 INFO  : connection terminated
+10:17:47 INFO  : connection terminated
+10:17:47 INFO  : scheduling shutdown timer for 2 seconds ...
+10:17:50 INFO  : Terminating Vitis C++ Server
+10:17:50 INFO  : Vitis C++ Server terminated
+08:10:36 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+08:10:36 INFO  : Embedded Template List generated successfully
+08:10:36 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+08:10:36 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD1847574644534201542 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+08:10:37 INFO  : Embedded Template List generated successfully
+08:10:46 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:10:46 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:10:55 INFO  : XSDB server has started successfully from frontend.
+08:10:55 INFO  : It has taken  4secs.
+08:10:56 INFO  : Connection to XSDB Server established.
+08:10:56 INFO  : It has taken  1secs.
+08:11:10 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:11:10 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:11:14 INFO  : Done
+08:11:14 ERROR : Program device failed. Program device cancelled.
+08:11:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:11:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:11:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+08:11:21 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+08:19:34 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:19:34 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:19:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:19:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:19:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+08:19:38 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+08:33:58 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:33:58 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+08:34:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:34:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+08:34:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+08:34:03 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:10:53 INFO  : connection terminated
+09:10:53 INFO  : connection terminated
+09:10:53 INFO  : scheduling shutdown timer for 2 seconds ...
+09:10:56 INFO  : Terminating Vitis C++ Server
+09:10:56 INFO  : Vitis C++ Server terminated
+09:11:49 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:11:49 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:11:49 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD16288089910518630003 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:11:50 INFO  : Embedded Template List generated successfully
+09:15:09 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+09:15:09 INFO  : BSP build will be initiated for Domain zynq_fsbl
+09:15:09 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:09 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:09 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:09 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:09 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:09 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:10 INFO  : Domain reconfigured successfully
+09:15:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:15:10 INFO  : Domain reconfigured successfully
+09:15:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:15:14 INFO  : Domain build successfully
+09:15:14 INFO  : Domain build successfully
+09:15:14 INFO  : Generating Boot ELFs
+09:15:14 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:15:14 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:15:15 INFO  : [INFO]: Retargeting app
+09:15:15 INFO  : [INFO]: Updating link libraries based on new domain
+09:15:15 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:15:15 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:15:15 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:15:19 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:15:19 INFO  : Generating Export directory
+09:15:20 INFO  : Platform Build Finished successfully.
+09:15:21 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:15:21 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:15:22 INFO  : [INFO]: Retargeting app
+09:15:22 INFO  : [INFO]: Updating link libraries based on new domain
+09:15:22 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:15:22 INFO  : Initiating build for the app_component component.
+09:15:22 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:15:22 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:15:29 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:15:29 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:15:43 INFO  : XSDB server has started successfully from frontend.
+09:15:43 INFO  : It has taken  6secs.
+09:15:44 INFO  : Connection to XSDB Server established.
+09:15:44 INFO  : It has taken  1secs.
+09:15:55 INFO  : Done
+09:15:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:15:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:16:07 ERROR : Program device failed. Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+09:16:22 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:16:22 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:16:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:16:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:16:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:16:26 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:17:02 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:17:02 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:17:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:17:06 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:17:18 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:17:18 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:17:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:17:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:17:22 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:18:36 INFO  : HW XSA update started
+09:18:36 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+09:18:36 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+09:18:51 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+09:18:51 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+09:18:51 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+09:18:51 INFO  : -board_dts 
+09:18:51 INFO  : -include_dts 
+09:18:51 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+09:18:51 INFO  : -zocl disable
+09:18:51 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+09:18:51 INFO  : hsi::open_hw_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 173.215 ; gain = 88.629
+09:18:51 INFO  : SDT generated successfully
+09:18:51 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:18:51 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:18:51 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:18:51 INFO  : Domain reconfigured successfully
+09:18:51 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:18:51 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:19:19 INFO  : [INFO]: Regenerating bsp
+09:19:19 INFO  : [INFO]: Starting domain creation
+09:19:19 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:19:19 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:19:19 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:19:19 INFO  : -- Configuring done
+09:19:19 INFO  : -- Generating done
+09:19:19 INFO  : CMake Warning:
+09:19:19 INFO  :   Manually-specified variables were not used by the project:
+09:19:19 INFO  : 
+09:19:19 INFO  :     CMAKE_TOOLCHAIN_FILE
+09:19:19 INFO  : 
+09:19:19 INFO  : 
+09:19:19 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+09:19:19 INFO  : [INFO]: Regenerated BSP successfully.
+09:19:19 INFO  : BSP regenerated successfully
+09:19:19 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:19:19 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:19:19 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:19:19 INFO  : Domain reconfigured successfully
+09:19:19 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:19:19 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:19:39 INFO  : [INFO]: Regenerating bsp
+09:19:39 INFO  : [INFO]: Starting domain creation
+09:19:39 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:19:39 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:19:39 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:19:39 INFO  : -- Configuring done
+09:19:39 INFO  : -- Generating done
+09:19:39 INFO  : CMake Warning:
+09:19:39 INFO  :   Manually-specified variables were not used by the project:
+09:19:39 INFO  : 
+09:19:39 INFO  :     CMAKE_TOOLCHAIN_FILE
+09:19:39 INFO  : 
+09:19:39 INFO  : 
+09:19:39 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+09:19:39 INFO  : [INFO]: Regenerated BSP successfully.
+09:19:39 INFO  : BSP regenerated successfully
+09:19:39 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:19:39 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:19:40 INFO  : CPU List generated successfully
+09:19:40 INFO  : Hardware XSA update finished successfully
+09:19:56 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:19:56 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:20:00 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:20:00 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:20:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:20:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:20:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:20:08 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:20:18 INFO  : connect -url tcp:127.0.0.1:3121
+09:20:18 INFO  : bpremove -all
+09:20:18 INFO  : Context for 'APU' is selected.
+09:20:18 INFO  : System reset is completed.
+09:20:21 INFO  : 'after 3000' command is executed.
+09:20:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:20:23 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:20:23 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:20:23 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:20:23 INFO  : configparams force-mem-access 1
+09:20:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:20:24 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:20:24 INFO  : ps7_init
+09:20:24 INFO  : ps7_post_config
+09:20:24 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:20:24 INFO  : rst -processor
+09:20:24 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:20:24 INFO  : con
+09:20:24 INFO  : configparams force-mem-access 0
+09:20:26 INFO  : Testing the connection for 127.0.0.1
+09:20:59 INFO  : disconnect
+09:20:59 INFO  : connect -url tcp:127.0.0.1:3121
+09:20:59 INFO  : bpremove -all
+09:20:59 INFO  : Context for 'APU' is selected.
+09:20:59 INFO  : System reset is completed.
+09:21:02 INFO  : 'after 3000' command is executed.
+09:21:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:21:05 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:21:05 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:21:07 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:21:07 INFO  : configparams force-mem-access 1
+09:21:07 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:21:07 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:21:07 INFO  : ps7_init
+09:21:08 INFO  : ps7_post_config
+09:21:08 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:21:08 INFO  : rst -processor
+09:21:08 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:21:08 INFO  : bpadd main
+09:21:08 INFO  : con
+09:21:08 INFO  : configparams force-mem-access 0
+09:21:09 INFO  : Testing the connection for 127.0.0.1
+09:30:16 INFO  : disconnect
+09:30:17 INFO  : connect -url tcp:127.0.0.1:3121
+09:30:17 INFO  : bpremove -all
+09:30:17 INFO  : Context for 'APU' is selected.
+09:30:17 INFO  : System reset is completed.
+09:30:20 INFO  : 'after 3000' command is executed.
+09:30:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:30:22 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:30:22 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:30:26 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:30:26 INFO  : configparams force-mem-access 1
+09:30:26 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:30:26 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:30:27 INFO  : ps7_init
+09:30:27 INFO  : ps7_post_config
+09:30:27 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:30:27 INFO  : rst -processor
+09:30:27 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:30:27 INFO  : bpadd main
+09:30:27 INFO  : con
+09:30:27 INFO  : configparams force-mem-access 0
+09:30:29 INFO  : Testing the connection for 127.0.0.1
+09:32:17 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:32:17 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:32:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:32:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:32:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:32:21 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:37:27 INFO  : disconnect
+09:38:08 INFO  : HW XSA update started
+09:38:08 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+09:38:08 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+09:38:21 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+09:38:21 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+09:38:21 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+09:38:21 INFO  : -board_dts 
+09:38:21 INFO  : -include_dts 
+09:38:21 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+09:38:21 INFO  : -zocl disable
+09:38:21 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 1 seconds
+09:38:21 INFO  : hsi::open_hw_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 173.625 ; gain = 88.449
+09:38:21 INFO  : SDT generated successfully
+09:38:21 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:38:21 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:38:21 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:38:22 INFO  : Domain reconfigured successfully
+09:38:22 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:38:22 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:38:43 INFO  : [INFO]: Regenerating bsp
+09:38:43 INFO  : [INFO]: Starting domain creation
+09:38:43 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:38:43 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:38:43 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:38:43 INFO  : -- Configuring done
+09:38:43 INFO  : -- Generating done
+09:38:43 INFO  : CMake Warning:
+09:38:43 INFO  :   Manually-specified variables were not used by the project:
+09:38:43 INFO  : 
+09:38:43 INFO  :     CMAKE_TOOLCHAIN_FILE
+09:38:43 INFO  : 
+09:38:43 INFO  : 
+09:38:43 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+09:38:43 INFO  : [INFO]: Regenerated BSP successfully.
+09:38:43 INFO  : BSP regenerated successfully
+09:38:43 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:38:43 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:38:43 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:38:44 INFO  : Domain reconfigured successfully
+09:38:44 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:38:44 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:39:02 INFO  : [INFO]: Regenerating bsp
+09:39:02 INFO  : [INFO]: Starting domain creation
+09:39:02 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+09:39:02 INFO  : [INFO]: Generating required metadata from domain specific DT
+09:39:02 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:39:02 INFO  : -- Configuring done
+09:39:02 INFO  : -- Generating done
+09:39:02 INFO  : CMake Warning:
+09:39:02 INFO  :   Manually-specified variables were not used by the project:
+09:39:02 INFO  : 
+09:39:02 INFO  :     CMAKE_TOOLCHAIN_FILE
+09:39:02 INFO  : 
+09:39:02 INFO  : 
+09:39:02 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+09:39:02 INFO  : [INFO]: Regenerated BSP successfully.
+09:39:02 INFO  : BSP regenerated successfully
+09:39:02 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:39:02 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+09:39:03 INFO  : CPU List generated successfully
+09:39:03 INFO  : Hardware XSA update finished successfully
+09:40:03 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:40:03 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+09:40:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:40:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:40:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:40:09 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:40:10 INFO  : BSP build will be initiated for Domain zynq_fsbl
+09:40:10 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+09:40:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:10 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:10 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : Domain reconfigured successfully
+09:40:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+09:40:10 INFO  : Domain reconfigured successfully
+09:40:10 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:10 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:10 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+09:40:27 INFO  : Domain build successfully
+09:40:29 INFO  : Domain build successfully
+09:40:29 INFO  : Generating Boot ELFs
+09:40:29 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:29 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:29 INFO  : [INFO]: Retargeting app
+09:40:29 INFO  : [INFO]: Updating link libraries based on new domain
+09:40:29 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+09:40:29 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:29 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:33 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+09:40:33 INFO  : Generating Export directory
+09:40:34 INFO  : Platform Build Finished successfully.
+09:40:34 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:34 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:35 INFO  : [INFO]: Retargeting app
+09:40:35 INFO  : [INFO]: Updating link libraries based on new domain
+09:40:35 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+09:40:35 INFO  : Initiating build for the app_component component.
+09:40:35 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:35 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+09:40:50 INFO  : connect -url tcp:127.0.0.1:3121
+09:40:57 INFO  : bpremove -all
+09:40:57 INFO  : Context for 'APU' is selected.
+09:40:57 INFO  : System reset is completed.
+09:41:00 INFO  : 'after 3000' command is executed.
+09:41:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:41:02 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:41:03 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:41:03 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:41:03 INFO  : configparams force-mem-access 1
+09:41:03 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:41:03 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:41:03 INFO  : ps7_init
+09:41:03 INFO  : ps7_post_config
+09:41:03 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:41:03 INFO  : rst -processor
+09:41:04 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:41:04 INFO  : bpadd main
+09:41:04 INFO  : con
+09:41:04 INFO  : configparams force-mem-access 0
+09:41:05 INFO  : Testing the connection for 127.0.0.1
+09:46:45 INFO  : connect -url tcp:127.0.0.1:3121
+09:46:45 INFO  : bpremove -all
+09:46:45 INFO  : Context for 'APU' is selected.
+09:46:45 INFO  : System reset is completed.
+09:46:48 INFO  : 'after 3000' command is executed.
+09:46:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:46:51 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:46:51 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:46:51 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:46:51 INFO  : configparams force-mem-access 1
+09:46:51 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:46:51 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:46:52 INFO  : ps7_init
+09:46:52 INFO  : ps7_post_config
+09:46:52 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:46:52 INFO  : rst -processor
+09:46:52 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:46:52 INFO  : bpadd main
+09:46:52 INFO  : con
+09:46:52 INFO  : configparams force-mem-access 0
+09:46:53 INFO  : Testing the connection for 127.0.0.1
+09:46:58 INFO  : disconnect
+09:47:02 INFO  : connect -url tcp:127.0.0.1:3121
+09:47:02 INFO  : bpremove -all
+09:47:02 INFO  : Context for 'APU' is selected.
+09:47:02 INFO  : System reset is completed.
+09:47:05 INFO  : 'after 3000' command is executed.
+09:47:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+09:47:07 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+09:47:07 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:47:15 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+09:47:15 INFO  : configparams force-mem-access 1
+09:47:15 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:47:15 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+09:47:15 INFO  : ps7_init
+09:47:15 INFO  : ps7_post_config
+09:47:15 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+09:47:16 INFO  : rst -processor
+09:47:16 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+09:47:16 INFO  : con
+09:47:16 INFO  : configparams force-mem-access 0
+09:47:17 INFO  : Testing the connection for 127.0.0.1
+09:48:04 INFO  : connection terminated
+09:48:04 INFO  : connection terminated
+09:48:04 INFO  : scheduling shutdown timer for 2 seconds ...
+09:48:06 INFO  : Terminating Vitis C++ Server
+09:48:07 INFO  : Vitis C++ Server terminated
+09:48:38 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+09:48:38 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+09:48:38 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD9207029708785646407 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+09:48:39 INFO  : Embedded Template List generated successfully
+10:24:05 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:24:05 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+10:24:05 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+10:24:05 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:24:05 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit\ps7_init.tcl' stored in project is removed.
+10:24:05 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:24:08 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:24:08 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+10:24:13 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:24:13 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:24:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:13 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:13 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:13 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:13 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:13 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:14 INFO  : Domain reconfigured successfully
+10:24:14 INFO  : Domain reconfigured successfully
+10:24:14 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:14 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:14 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:14 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:14 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+10:24:14 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:24:16 INFO  : Domain build successfully
+10:24:16 INFO  : Domain build successfully
+10:24:16 INFO  : Generating Boot ELFs
+10:24:16 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:24:16 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:24:17 INFO  : [INFO]: Retargeting app
+10:24:17 INFO  : [INFO]: Updating link libraries based on new domain
+10:24:17 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+10:24:17 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:24:17 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:24:21 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+10:24:21 INFO  : Generating Export directory
+10:24:22 INFO  : Platform Build Finished successfully.
+10:24:23 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:24:23 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:24:23 INFO  : [INFO]: Retargeting app
+10:24:23 INFO  : [INFO]: Updating link libraries based on new domain
+10:24:23 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+10:24:23 INFO  : Initiating build for the app_component component.
+10:24:23 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:24:23 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+10:24:33 INFO  : XSDB server has started successfully from frontend.
+10:24:33 INFO  : It has taken  3secs.
+10:24:34 INFO  : Connection to XSDB Server established.
+10:24:34 INFO  : It has taken  1secs.
+10:24:34 INFO  : connect -url tcp:127.0.0.1:3121
+10:24:34 INFO  : Done
+10:24:42 INFO  : bpremove -all
+10:24:43 INFO  : Context for 'APU' is selected.
+10:24:43 INFO  : System reset is completed.
+10:24:46 INFO  : 'after 3000' command is executed.
+10:24:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+10:24:48 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+10:24:48 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:24:48 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+10:24:48 INFO  : configparams force-mem-access 1
+10:24:49 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:24:49 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+10:24:49 INFO  : ps7_init
+10:24:49 INFO  : ps7_post_config
+10:24:49 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:24:49 INFO  : rst -processor
+10:24:50 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+10:24:50 INFO  : con
+10:24:50 INFO  : configparams force-mem-access 0
+10:24:51 INFO  : Testing the connection for 127.0.0.1
+10:25:12 INFO  : connect -url tcp:127.0.0.1:3121
+10:25:12 INFO  : bpremove -all
+10:25:13 INFO  : Context for 'APU' is selected.
+10:25:13 INFO  : System reset is completed.
+10:25:16 INFO  : 'after 3000' command is executed.
+10:25:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+10:25:18 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+10:25:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:25:18 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+10:25:18 INFO  : configparams force-mem-access 1
+10:25:18 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:25:18 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+10:25:19 INFO  : ps7_init
+10:25:19 INFO  : ps7_post_config
+10:25:19 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:25:19 INFO  : rst -processor
+10:25:19 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+10:25:20 INFO  : bpadd main
+10:25:20 INFO  : con
+10:25:20 INFO  : configparams force-mem-access 0
+10:25:21 INFO  : Testing the connection for 127.0.0.1
+10:27:49 INFO  : disconnect
+10:27:49 INFO  : connect -url tcp:127.0.0.1:3121
+10:27:49 INFO  : bpremove -all
+10:27:49 ERROR : Failed to initialize the hardware. Invalid target. Use "connect" command to connect to hw_server/TCF agent
+10:29:05 INFO  : connect -url tcp:127.0.0.1:3121
+10:29:05 INFO  : bpremove -all
+10:29:05 INFO  : Context for 'APU' is selected.
+10:29:06 INFO  : System reset is completed.
+10:29:09 INFO  : 'after 3000' command is executed.
+10:29:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+10:29:11 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+10:29:11 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:29:19 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+10:29:19 INFO  : configparams force-mem-access 1
+10:29:19 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:29:19 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+10:29:20 INFO  : ps7_init
+10:29:20 INFO  : ps7_post_config
+10:29:20 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+10:29:20 INFO  : rst -processor
+10:29:20 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+10:29:20 INFO  : bpadd main
+10:29:20 INFO  : con
+10:29:20 INFO  : configparams force-mem-access 0
+10:29:21 INFO  : Testing the connection for 127.0.0.1
+11:19:21 INFO  : disconnect
+11:19:42 INFO  : HW XSA update started
+11:19:42 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+11:19:42 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+11:19:49 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+11:19:49 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+11:19:49 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+11:19:49 INFO  : -board_dts 
+11:19:49 INFO  : -include_dts 
+11:19:49 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+11:19:49 INFO  : -zocl disable
+11:19:49 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 1 seconds
+11:19:49 INFO  : SDT generated successfully
+11:19:49 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:19:49 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:19:49 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:19:49 INFO  : Domain reconfigured successfully
+11:19:49 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+11:19:49 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+11:20:09 INFO  : [INFO]: Regenerating bsp
+11:20:09 INFO  : [INFO]: Starting domain creation
+11:20:09 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+11:20:09 INFO  : [INFO]: Generating required metadata from domain specific DT
+11:20:09 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:20:09 INFO  : -- Configuring done
+11:20:09 INFO  : -- Generating done
+11:20:09 INFO  : CMake Warning:
+11:20:09 INFO  :   Manually-specified variables were not used by the project:
+11:20:09 INFO  : 
+11:20:09 INFO  :     CMAKE_TOOLCHAIN_FILE
+11:20:09 INFO  : 
+11:20:09 INFO  : 
+11:20:09 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+11:20:09 INFO  : [INFO]: Regenerated BSP successfully.
+11:20:09 INFO  : BSP regenerated successfully
+11:20:09 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:09 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:09 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:10 INFO  : Domain reconfigured successfully
+11:20:10 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+11:20:10 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+11:20:26 INFO  : [INFO]: Regenerating bsp
+11:20:26 INFO  : [INFO]: Starting domain creation
+11:20:26 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+11:20:26 INFO  : [INFO]: Generating required metadata from domain specific DT
+11:20:26 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:20:26 INFO  : -- Configuring done
+11:20:26 INFO  : -- Generating done
+11:20:26 INFO  : CMake Warning:
+11:20:26 INFO  :   Manually-specified variables were not used by the project:
+11:20:26 INFO  : 
+11:20:26 INFO  :     CMAKE_TOOLCHAIN_FILE
+11:20:26 INFO  : 
+11:20:26 INFO  : 
+11:20:26 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+11:20:26 INFO  : [INFO]: Regenerated BSP successfully.
+11:20:26 INFO  : BSP regenerated successfully
+11:20:26 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+11:20:26 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+11:20:27 INFO  : CPU List generated successfully
+11:20:27 INFO  : Hardware XSA update finished successfully
+11:21:31 INFO  : BSP build will be initiated for Domain zynq_fsbl
+11:21:31 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+11:21:31 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:31 INFO  : Domain reconfigured successfully
+11:21:31 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+11:21:31 INFO  : Domain reconfigured successfully
+11:21:31 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:31 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:31 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+11:21:46 INFO  : Domain build successfully
+11:21:47 INFO  : Domain build successfully
+11:21:47 INFO  : Generating Boot ELFs
+11:21:47 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+11:21:47 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+11:21:47 INFO  : [INFO]: Retargeting app
+11:21:47 INFO  : [INFO]: Updating link libraries based on new domain
+11:21:47 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+11:21:47 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+11:21:47 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+11:21:50 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+11:21:50 INFO  : Generating Export directory
+11:21:51 INFO  : Platform Build Finished successfully.
+11:22:12 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:22:12 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+11:22:12 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+11:22:12 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+11:22:12 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit\ps7_init.tcl' stored in project is removed.
+11:22:12 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+11:22:15 WARN  : Failed to closehw "C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa"
+Reason: Cannot close hw design 'C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa'.
+Design is not opened in the current session.
+
+11:22:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:22:19 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:23:29 INFO  : connect -url tcp:127.0.0.1:3121
+11:23:29 INFO  : bpremove -all
+11:23:29 INFO  : Context for 'APU' is selected.
+11:23:29 INFO  : System reset is completed.
+11:23:32 INFO  : 'after 3000' command is executed.
+11:23:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:23:34 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:23:34 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:23:34 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:23:34 INFO  : configparams force-mem-access 1
+11:23:34 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:23:34 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:23:35 INFO  : ps7_init
+11:23:35 INFO  : ps7_post_config
+11:23:35 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:23:35 INFO  : rst -processor
+11:23:35 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:23:35 INFO  : bpadd main
+11:23:35 INFO  : con
+11:23:35 INFO  : configparams force-mem-access 0
+11:23:36 INFO  : Testing the connection for 127.0.0.1
+11:24:00 INFO  : disconnect
+11:24:00 INFO  : connect -url tcp:127.0.0.1:3121
+11:24:00 INFO  : bpremove -all
+11:24:00 INFO  : Context for 'APU' is selected.
+11:24:00 INFO  : System reset is completed.
+11:24:03 INFO  : 'after 3000' command is executed.
+11:24:03 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:24:06 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:24:06 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:08 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:24:08 INFO  : configparams force-mem-access 1
+11:24:08 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:08 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:24:08 INFO  : ps7_init
+11:24:08 INFO  : ps7_post_config
+11:24:08 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:08 INFO  : rst -processor
+11:24:08 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:24:08 INFO  : bpadd main
+11:24:08 INFO  : con
+11:24:08 INFO  : configparams force-mem-access 0
+11:24:09 INFO  : Testing the connection for 127.0.0.1
+11:24:43 INFO  : disconnect
+11:24:43 INFO  : connect -url tcp:127.0.0.1:3121
+11:24:43 INFO  : bpremove -all
+11:24:44 INFO  : Context for 'APU' is selected.
+11:24:44 INFO  : System reset is completed.
+11:24:47 INFO  : 'after 3000' command is executed.
+11:24:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:24:49 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:24:49 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:51 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:24:51 INFO  : configparams force-mem-access 1
+11:24:51 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:51 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:24:52 INFO  : ps7_init
+11:24:52 INFO  : ps7_post_config
+11:24:52 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:24:52 INFO  : rst -processor
+11:24:52 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:24:52 INFO  : bpadd main
+11:24:52 INFO  : con
+11:24:52 INFO  : configparams force-mem-access 0
+11:24:53 INFO  : Testing the connection for 127.0.0.1
+11:26:47 INFO  : connect -url tcp:127.0.0.1:3121
+11:26:47 INFO  : bpremove -all
+11:26:47 INFO  : Context for 'APU' is selected.
+11:26:47 INFO  : System reset is completed.
+11:26:50 INFO  : 'after 3000' command is executed.
+11:26:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:26:52 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:26:52 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:26:52 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:26:52 INFO  : configparams force-mem-access 1
+11:26:52 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:26:52 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:26:53 INFO  : ps7_init
+11:26:53 INFO  : ps7_post_config
+11:26:53 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:26:53 INFO  : rst -processor
+11:26:53 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:26:53 INFO  : bpadd main
+11:26:53 INFO  : con
+11:26:53 INFO  : configparams force-mem-access 0
+11:26:54 INFO  : Testing the connection for 127.0.0.1
+11:26:58 INFO  : disconnect
+11:27:08 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+11:27:08 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+11:27:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:27:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:27:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:27:14 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:27:22 INFO  : connect -url tcp:127.0.0.1:3121
+11:27:22 INFO  : bpremove -all
+11:27:22 INFO  : Context for 'APU' is selected.
+11:27:22 INFO  : System reset is completed.
+11:27:25 INFO  : 'after 3000' command is executed.
+11:27:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:27:28 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:27:28 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:27:28 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:27:28 INFO  : configparams force-mem-access 1
+11:27:28 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:27:28 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:27:28 INFO  : ps7_init
+11:27:28 INFO  : ps7_post_config
+11:27:28 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:27:29 INFO  : rst -processor
+11:27:29 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:27:29 INFO  : bpadd main
+11:27:29 INFO  : con
+11:27:29 INFO  : configparams force-mem-access 0
+11:27:30 INFO  : Testing the connection for 127.0.0.1
+11:27:54 INFO  : disconnect
+11:27:54 INFO  : connect -url tcp:127.0.0.1:3121
+11:27:54 INFO  : bpremove -all
+11:27:54 INFO  : Context for 'APU' is selected.
+11:27:54 INFO  : System reset is completed.
+11:27:57 INFO  : 'after 3000' command is executed.
+11:27:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:28:00 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:28:00 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:02 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:28:02 INFO  : configparams force-mem-access 1
+11:28:02 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:02 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:28:02 INFO  : ps7_init
+11:28:02 INFO  : ps7_post_config
+11:28:02 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:02 INFO  : rst -processor
+11:28:02 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:28:02 INFO  : bpadd main
+11:28:02 INFO  : con
+11:28:02 INFO  : configparams force-mem-access 0
+11:28:03 INFO  : Testing the connection for 127.0.0.1
+11:28:32 INFO  : disconnect
+11:28:32 INFO  : connect -url tcp:127.0.0.1:3121
+11:28:32 INFO  : bpremove -all
+11:28:32 INFO  : Context for 'APU' is selected.
+11:28:32 INFO  : System reset is completed.
+11:28:36 INFO  : 'after 3000' command is executed.
+11:28:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+11:28:38 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+11:28:38 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:40 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+11:28:40 INFO  : configparams force-mem-access 1
+11:28:40 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:40 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+11:28:40 INFO  : ps7_init
+11:28:40 INFO  : ps7_post_config
+11:28:41 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+11:28:41 INFO  : rst -processor
+11:28:41 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+11:28:41 INFO  : bpadd main
+11:28:41 INFO  : con
+11:28:41 INFO  : configparams force-mem-access 0
+11:28:42 INFO  : Testing the connection for 127.0.0.1
+11:37:39 INFO  : disconnect
+13:03:14 INFO  : HW XSA update started
+13:03:14 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+13:03:14 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+13:03:20 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+13:03:20 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+13:03:20 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+13:03:20 INFO  : -board_dts 
+13:03:20 INFO  : -include_dts 
+13:03:20 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+13:03:20 INFO  : -zocl disable
+13:03:20 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 1 seconds
+13:03:20 INFO  : SDT generated successfully
+13:03:20 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:03:20 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:03:20 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:03:21 INFO  : Domain reconfigured successfully
+13:03:21 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:03:21 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:03:39 INFO  : [INFO]: Regenerating bsp
+13:03:39 INFO  : [INFO]: Starting domain creation
+13:03:39 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:03:39 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:03:39 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:03:39 INFO  : -- Configuring done
+13:03:39 INFO  : -- Generating done
+13:03:39 INFO  : CMake Warning:
+13:03:39 INFO  :   Manually-specified variables were not used by the project:
+13:03:39 INFO  : 
+13:03:39 INFO  :     CMAKE_TOOLCHAIN_FILE
+13:03:39 INFO  : 
+13:03:39 INFO  : 
+13:03:39 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+13:03:39 INFO  : [INFO]: Regenerated BSP successfully.
+13:03:39 INFO  : BSP regenerated successfully
+13:03:39 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:03:39 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:03:39 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:03:39 INFO  : Domain reconfigured successfully
+13:03:39 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:03:39 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:03:54 INFO  : [INFO]: Regenerating bsp
+13:03:54 INFO  : [INFO]: Starting domain creation
+13:03:54 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:03:54 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:03:54 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:03:54 INFO  : -- Configuring done
+13:03:54 INFO  : -- Generating done
+13:03:54 INFO  : CMake Warning:
+13:03:54 INFO  :   Manually-specified variables were not used by the project:
+13:03:54 INFO  : 
+13:03:54 INFO  :     CMAKE_TOOLCHAIN_FILE
+13:03:54 INFO  : 
+13:03:54 INFO  : 
+13:03:54 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+13:03:54 INFO  : [INFO]: Regenerated BSP successfully.
+13:03:54 INFO  : BSP regenerated successfully
+13:03:54 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+13:03:54 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+13:03:55 INFO  : CPU List generated successfully
+13:03:55 INFO  : Hardware XSA update finished successfully
+13:04:06 INFO  : cmd.exe, /C, lopper.bat -O  . C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:04:07 INFO  : Supported Library List generated.
+13:04:08 INFO  : cmd.exe, /C, lopper.bat -O  . C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:04:09 INFO  : Supported Library List generated.
+13:04:20 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+13:04:20 INFO  : BSP build will be initiated for Domain zynq_fsbl
+13:04:20 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:20 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:20 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:20 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:20 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:20 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:21 INFO  : Domain reconfigured successfully
+13:04:21 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:21 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:21 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:04:21 INFO  : Domain reconfigured successfully
+13:04:21 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:21 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:21 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:04:37 INFO  : Domain build successfully
+13:04:38 INFO  : Domain build successfully
+13:04:38 INFO  : Generating Boot ELFs
+13:04:38 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:04:38 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:04:38 INFO  : [INFO]: Retargeting app
+13:04:38 INFO  : [INFO]: Updating link libraries based on new domain
+13:04:38 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+13:04:38 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:04:38 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:04:41 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:04:41 INFO  : Generating Export directory
+13:04:42 INFO  : Platform Build Finished successfully.
+13:05:52 INFO  : connect -url tcp:127.0.0.1:3121
+13:05:52 WARN  : Failed to closehw "C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa"
+Reason: Cannot close hw design 'C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa'.
+Design is not opened in the current session.
+
+13:05:54 INFO  : bpremove -all
+13:06:03 ERROR : Failed to initialize the hardware. Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:06:14 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:06:14 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+13:06:14 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+13:06:14 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+13:06:14 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit\ps7_init.tcl' stored in project is removed.
+13:06:14 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+13:06:25 INFO  : connect -url tcp:127.0.0.1:3121
+13:06:25 INFO  : bpremove -all
+13:06:25 INFO  : Context for 'APU' is selected.
+13:06:25 INFO  : System reset is completed.
+13:06:28 INFO  : 'after 3000' command is executed.
+13:06:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:06:30 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:06:31 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:06:31 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:06:31 INFO  : configparams force-mem-access 1
+13:06:31 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:06:31 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:06:31 INFO  : ps7_init
+13:06:31 INFO  : ps7_post_config
+13:06:31 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:06:31 INFO  : rst -processor
+13:06:32 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:06:32 INFO  : con
+13:06:32 INFO  : configparams force-mem-access 0
+13:06:33 INFO  : Testing the connection for 127.0.0.1
+13:07:18 INFO  : connect -url tcp:127.0.0.1:3121
+13:07:18 INFO  : bpremove -all
+13:07:18 INFO  : Context for 'APU' is selected.
+13:07:18 INFO  : System reset is completed.
+13:07:21 INFO  : 'after 3000' command is executed.
+13:07:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:07:24 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:07:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:07:24 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:07:24 INFO  : configparams force-mem-access 1
+13:07:24 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:07:24 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:07:25 INFO  : ps7_init
+13:07:25 INFO  : ps7_post_config
+13:07:25 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:07:25 INFO  : rst -processor
+13:07:25 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:07:25 INFO  : con
+13:07:25 INFO  : configparams force-mem-access 0
+13:07:26 INFO  : Testing the connection for 127.0.0.1
+13:07:58 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+13:07:58 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+13:08:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:08:04 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:08:08 INFO  : connect -url tcp:127.0.0.1:3121
+13:08:08 INFO  : bpremove -all
+13:08:08 INFO  : Context for 'APU' is selected.
+13:08:08 INFO  : System reset is completed.
+13:08:11 INFO  : 'after 3000' command is executed.
+13:08:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:08:14 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:08:14 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:08:14 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:08:14 INFO  : configparams force-mem-access 1
+13:08:14 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:08:14 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:08:14 INFO  : ps7_init
+13:08:14 INFO  : ps7_post_config
+13:08:15 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:08:15 INFO  : rst -processor
+13:08:15 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:08:15 INFO  : con
+13:08:15 INFO  : configparams force-mem-access 0
+13:08:16 INFO  : Testing the connection for 127.0.0.1
+13:08:18 INFO  : connection terminated
+13:08:18 INFO  : connection terminated
+13:08:18 INFO  : scheduling shutdown timer for 2 seconds ...
+13:08:21 INFO  : Terminating Vitis C++ Server
+13:08:21 INFO  : Vitis C++ Server terminated
+13:09:09 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+13:09:10 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+13:09:10 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD7607866115806239673 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:09:10 INFO  : Embedded Template List generated successfully
+13:09:29 INFO  : XSDB server has started successfully from frontend.
+13:09:29 INFO  : It has taken  2secs.
+13:09:30 INFO  : Connection to XSDB Server established.
+13:09:30 INFO  : It has taken  1secs.
+13:09:30 INFO  : connect -url tcp:127.0.0.1:3121
+13:09:30 INFO  : Done
+13:09:32 INFO  : bpremove -all
+13:09:32 INFO  : Context for 'APU' is selected.
+13:09:32 INFO  : System reset is completed.
+13:09:35 INFO  : 'after 3000' command is executed.
+13:09:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:09:37 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:09:38 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:09:38 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:09:38 INFO  : configparams force-mem-access 1
+13:09:38 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:09:38 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:09:38 INFO  : ps7_init
+13:09:38 INFO  : ps7_post_config
+13:09:38 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:09:38 INFO  : rst -processor
+13:09:38 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:09:38 INFO  : con
+13:09:38 INFO  : configparams force-mem-access 0
+13:09:39 INFO  : Testing the connection for 127.0.0.1
+13:09:58 INFO  : connect -url tcp:127.0.0.1:3121
+13:09:58 INFO  : bpremove -all
+13:09:59 INFO  : Context for 'APU' is selected.
+13:09:59 INFO  : System reset is completed.
+13:10:02 INFO  : 'after 3000' command is executed.
+13:10:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:10:04 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:10:04 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:04 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:10:04 INFO  : configparams force-mem-access 1
+13:10:04 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:04 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:10:05 INFO  : ps7_init
+13:10:05 INFO  : ps7_post_config
+13:10:05 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:05 INFO  : rst -processor
+13:10:05 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:10:05 INFO  : con
+13:10:05 INFO  : configparams force-mem-access 0
+13:10:06 INFO  : Testing the connection for 127.0.0.1
+13:10:14 INFO  : disconnect
+13:10:21 INFO  : connect -url tcp:127.0.0.1:3121
+13:10:21 INFO  : bpremove -all
+13:10:21 INFO  : Context for 'APU' is selected.
+13:10:21 INFO  : System reset is completed.
+13:10:24 INFO  : 'after 3000' command is executed.
+13:10:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:10:26 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:10:26 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:28 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:10:28 INFO  : configparams force-mem-access 1
+13:10:28 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:28 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+13:10:29 INFO  : ps7_init
+13:10:29 INFO  : ps7_post_config
+13:10:29 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:10:29 INFO  : rst -processor
+13:10:29 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+13:10:29 INFO  : con
+13:10:29 INFO  : configparams force-mem-access 0
+13:10:30 INFO  : Testing the connection for 127.0.0.1
+13:32:10 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD18137171347411111898 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:32:11 INFO  : Embedded Template List generated successfully
+13:53:26 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+13:53:26 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+13:53:26 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD16353243210387254491 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:53:27 INFO  : Embedded Template List generated successfully
+13:54:19 INFO  : HW XSA update started
+13:54:19 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+13:54:19 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+13:54:25 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+13:54:25 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa
+13:54:25 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+13:54:25 INFO  : -board_dts 
+13:54:25 INFO  : -include_dts 
+13:54:25 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+13:54:25 INFO  : -zocl disable
+13:54:25 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+13:54:25 INFO  : SDT generated successfully
+13:54:25 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:54:25 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:54:25 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:54:25 INFO  : Domain reconfigured successfully
+13:54:25 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:54:25 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:54:43 INFO  : [INFO]: Regenerating bsp
+13:54:43 INFO  : [INFO]: Starting domain creation
+13:54:43 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:54:43 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:54:43 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:54:43 INFO  : -- Configuring done
+13:54:43 INFO  : -- Generating done
+13:54:43 INFO  : CMake Warning:
+13:54:43 INFO  :   Manually-specified variables were not used by the project:
+13:54:43 INFO  : 
+13:54:43 INFO  :     CMAKE_TOOLCHAIN_FILE
+13:54:43 INFO  : 
+13:54:43 INFO  : 
+13:54:43 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+13:54:43 INFO  : [INFO]: Regenerated BSP successfully.
+13:54:43 INFO  : BSP regenerated successfully
+13:54:43 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:54:43 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:54:43 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:54:43 INFO  : Domain reconfigured successfully
+13:54:43 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:54:43 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:54:59 INFO  : [INFO]: Regenerating bsp
+13:54:59 INFO  : [INFO]: Starting domain creation
+13:54:59 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:54:59 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:54:59 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:54:59 INFO  : -- Configuring done
+13:54:59 INFO  : -- Generating done
+13:54:59 INFO  : CMake Warning:
+13:54:59 INFO  :   Manually-specified variables were not used by the project:
+13:54:59 INFO  : 
+13:54:59 INFO  :     CMAKE_TOOLCHAIN_FILE
+13:54:59 INFO  : 
+13:54:59 INFO  : 
+13:54:59 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+13:54:59 INFO  : [INFO]: Regenerated BSP successfully.
+13:54:59 INFO  : BSP regenerated successfully
+13:54:59 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+13:54:59 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+13:55:00 INFO  : CPU List generated successfully
+13:55:00 INFO  : Hardware XSA update finished successfully
+13:55:48 INFO  : BSP build will be initiated for Domain zynq_fsbl
+13:55:48 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+13:55:48 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:55:48 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:48 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:55:48 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:48 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:55:48 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:49 INFO  : Domain reconfigured successfully
+13:55:49 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:55:49 INFO  : Domain reconfigured successfully
+13:55:49 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:55:49 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:55:49 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:56:04 INFO  : Domain build successfully
+13:56:05 INFO  : Domain build successfully
+13:56:05 INFO  : Generating Boot ELFs
+13:56:05 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:56:05 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:56:06 INFO  : [INFO]: Retargeting app
+13:56:06 INFO  : [INFO]: Updating link libraries based on new domain
+13:56:06 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+13:56:06 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:56:06 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:56:09 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:56:09 INFO  : Generating Export directory
+13:56:10 INFO  : Platform Build Finished successfully.
+13:56:30 INFO  : XSDB server has started successfully from frontend.
+13:56:30 INFO  : It has taken  3secs.
+13:56:31 INFO  : Connection to XSDB Server established.
+13:56:31 INFO  : It has taken  1secs.
+13:56:31 INFO  : Done
+13:56:31 INFO  : connect -url tcp:127.0.0.1:3121
+13:56:33 INFO  : bpremove -all
+13:56:39 INFO  : Context for 'APU' is selected.
+13:56:39 INFO  : System reset is completed.
+13:56:42 INFO  : 'after 3000' command is executed.
+13:56:42 INFO  : connect -url tcp:127.0.0.1:3121
+13:56:42 INFO  : bpremove -all
+13:56:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:56:45 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:56:45 ERROR : Failed to initialize the hardware. Run cancelled.
+13:56:45 INFO  : Context for 'APU' is selected.
+13:56:45 INFO  : System reset is completed.
+13:56:48 INFO  : 'after 3000' command is executed.
+13:56:48 ERROR : Failed to initialize the hardware. Run cancelled.
+13:56:48 INFO  : connect -url tcp:127.0.0.1:3121
+13:56:48 INFO  : bpremove -all
+13:56:48 INFO  : Context for 'APU' is selected.
+13:56:48 INFO  : System reset is completed.
+13:56:51 INFO  : 'after 3000' command is executed.
+13:56:51 ERROR : Failed to initialize the hardware. Run cancelled.
+13:57:09 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:57:09 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+13:57:09 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+13:57:09 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+13:57:09 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit\ps7_init.tcl' stored in project is removed.
+13:57:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:57:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:57:14 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:57:16 INFO  : connect -url tcp:127.0.0.1:3121
+13:57:16 INFO  : bpremove -all
+13:57:16 INFO  : Context for 'APU' is selected.
+13:57:16 INFO  : System reset is completed.
+13:57:19 INFO  : 'after 3000' command is executed.
+13:57:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:57:22 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:57:22 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:57:22 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:57:22 INFO  : configparams force-mem-access 1
+13:57:22 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:57:22 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:57:22 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:57:36 INFO  : connect -url tcp:127.0.0.1:3121
+13:57:36 INFO  : bpremove -all
+13:57:36 INFO  : Context for 'APU' is selected.
+13:57:36 INFO  : System reset is completed.
+13:57:39 INFO  : 'after 3000' command is executed.
+13:57:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:57:41 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:57:42 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:57:42 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:57:42 INFO  : configparams force-mem-access 1
+13:57:42 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:57:42 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:57:42 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:57:57 INFO  : cmd.exe, /C, lopper.bat -O  . C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -- baremetal_getsupported_comp_xlnx ps7_cortexa9_0 C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+13:57:59 INFO  : Supported Library List generated.
+13:58:33 INFO  : connect -url tcp:127.0.0.1:3121
+13:58:33 INFO  : bpremove -all
+13:58:33 INFO  : Context for 'APU' is selected.
+13:58:33 INFO  : System reset is completed.
+13:58:36 INFO  : 'after 3000' command is executed.
+13:58:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:58:39 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:58:39 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:58:39 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:58:39 INFO  : configparams force-mem-access 1
+13:58:39 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:58:39 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:58:39 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:58:55 INFO  : BSP build will be initiated for Domain zynq_fsbl
+13:58:55 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+13:58:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:55 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:55 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:55 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:55 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:56 INFO  : Domain reconfigured successfully
+13:58:56 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:56 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:56 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:58:56 INFO  : Domain reconfigured successfully
+13:58:56 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:56 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:56 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+13:58:57 INFO  : Domain build successfully
+13:58:58 INFO  : Domain build successfully
+13:58:58 INFO  : Generating Boot ELFs
+13:58:58 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:58:58 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:58:58 INFO  : [INFO]: Retargeting app
+13:58:58 INFO  : [INFO]: Updating link libraries based on new domain
+13:58:58 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+13:58:58 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:58:58 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:59:01 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+13:59:01 INFO  : Generating Export directory
+13:59:02 INFO  : Platform Build Finished successfully.
+13:59:02 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+13:59:02 INFO  : cmd.exe, /C, empyro.bat retarget_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\export\platform\sw\standalone_ps7_cortexa9_0 -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+13:59:03 INFO  : [INFO]: Retargeting app
+13:59:03 INFO  : [INFO]: Updating link libraries based on new domain
+13:59:03 INFO  : Successfully retargeted Application c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src
+13:59:03 INFO  : Initiating build for the app_component component.
+13:59:03 INFO  : cmd.exe, /C, empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+13:59:03 INFO  : Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\MahmoudHc\Desktop\temp\riky\app_component\src -b c:\Users\MahmoudHc\Desktop\temp\riky\app_component\build
+13:59:09 INFO  : connect -url tcp:127.0.0.1:3121
+13:59:09 INFO  : bpremove -all
+13:59:09 INFO  : Context for 'APU' is selected.
+13:59:09 INFO  : System reset is completed.
+13:59:12 INFO  : 'after 3000' command is executed.
+13:59:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:59:15 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:59:15 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:59:15 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:59:15 INFO  : configparams force-mem-access 1
+13:59:15 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:59:15 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:59:15 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:59:21 INFO  : connect -url tcp:127.0.0.1:3121
+13:59:21 INFO  : bpremove -all
+13:59:21 INFO  : Context for 'APU' is selected.
+13:59:21 INFO  : System reset is completed.
+13:59:24 INFO  : 'after 3000' command is executed.
+13:59:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+13:59:26 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+13:59:26 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:59:26 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+13:59:26 INFO  : configparams force-mem-access 1
+13:59:26 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+13:59:26 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+13:59:26 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:03:01 INFO  : HW XSA update started
+14:03:01 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+14:03:01 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+14:03:07 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt exists. Files will be overwritten
+14:03:07 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\riky\design_1_wrapper.xsa
+14:03:07 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt
+14:03:07 INFO  : -board_dts 
+14:03:07 INFO  : -include_dts 
+14:03:07 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+14:03:07 INFO  : -zocl disable
+14:03:07 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 0 seconds
+14:03:07 INFO  : SDT generated successfully
+14:03:07 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:03:07 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:03:07 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:03:07 INFO  : Domain reconfigured successfully
+14:03:07 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:03:07 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:03:25 INFO  : [INFO]: Regenerating bsp
+14:03:25 INFO  : [INFO]: Starting domain creation
+14:03:25 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+14:03:25 INFO  : [INFO]: Generating required metadata from domain specific DT
+14:03:25 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:03:25 INFO  : -- Configuring done
+14:03:25 INFO  : -- Generating done
+14:03:25 INFO  : CMake Warning:
+14:03:25 INFO  :   Manually-specified variables were not used by the project:
+14:03:25 INFO  : 
+14:03:25 INFO  :     CMAKE_TOOLCHAIN_FILE
+14:03:25 INFO  : 
+14:03:25 INFO  : 
+14:03:25 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/zynq_fsbl/zynq_fsbl_bsp/libsrc/build_configs/gen_bsp
+14:03:25 INFO  : [INFO]: Regenerated BSP successfully.
+14:03:25 INFO  : BSP regenerated successfully
+14:03:25 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:03:25 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:03:25 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:03:25 INFO  : Domain reconfigured successfully
+14:03:25 INFO  : lopper command to regenerate BSP :empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:03:25 INFO  : cmd.exe, /C, empyro.bat regen_bsp -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:03:41 INFO  : [INFO]: Regenerating bsp
+14:03:41 INFO  : [INFO]: Starting domain creation
+14:03:41 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+14:03:41 INFO  : [INFO]: Generating required metadata from domain specific DT
+14:03:41 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:03:41 INFO  : -- Configuring done
+14:03:41 INFO  : -- Generating done
+14:03:41 INFO  : CMake Warning:
+14:03:41 INFO  :   Manually-specified variables were not used by the project:
+14:03:41 INFO  : 
+14:03:41 INFO  :     CMAKE_TOOLCHAIN_FILE
+14:03:41 INFO  : 
+14:03:41 INFO  : 
+14:03:41 INFO  : -- Build files have been written to: C:/Users/MahmoudHc/Desktop/temp/riky/platform/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/libsrc/build_configs/gen_bsp
+14:03:41 INFO  : [INFO]: Regenerated BSP successfully.
+14:03:41 INFO  : BSP regenerated successfully
+14:03:41 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+14:03:41 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\riky\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\riky\platform\hw\sdt\system-top.dts
+14:03:42 INFO  : CPU List generated successfully
+14:03:42 INFO  : Hardware XSA update finished successfully
+14:04:23 INFO  : BSP build will be initiated for Domain zynq_fsbl
+14:04:23 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+14:04:23 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:23 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:23 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:23 INFO  : Domain reconfigured successfully
+14:04:23 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+14:04:23 INFO  : Domain reconfigured successfully
+14:04:23 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:23 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:23 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+14:04:38 INFO  : Domain build successfully
+14:04:39 INFO  : Domain build successfully
+14:04:39 INFO  : Generating Boot ELFs
+14:04:39 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+14:04:39 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+14:04:39 INFO  : [INFO]: Retargeting app
+14:04:39 INFO  : [INFO]: Updating link libraries based on new domain
+14:04:39 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+14:04:39 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+14:04:39 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+14:04:42 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+14:04:42 INFO  : Generating Export directory
+14:04:43 INFO  : Platform Build Finished successfully.
+14:05:06 INFO  : connect -url tcp:127.0.0.1:3121
+14:05:08 INFO  : bpremove -all
+14:05:08 INFO  : Context for 'APU' is selected.
+14:05:08 INFO  : System reset is completed.
+14:05:11 INFO  : 'after 3000' command is executed.
+14:05:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:05:13 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:05:13 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:05:14 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:05:14 INFO  : configparams force-mem-access 1
+14:05:14 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:05:14 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:05:14 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:06:02 INFO  : connect -url tcp:127.0.0.1:3121
+14:06:02 INFO  : bpremove -all
+14:06:02 INFO  : Context for 'APU' is selected.
+14:06:02 INFO  : System reset is completed.
+14:06:05 INFO  : 'after 3000' command is executed.
+14:06:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:06:07 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:06:07 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:06:07 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:06:07 INFO  : configparams force-mem-access 1
+14:06:08 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:06:08 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:06:08 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:06:18 INFO  : connection terminated
+14:06:18 INFO  : connection terminated
+14:06:18 INFO  : scheduling shutdown timer for 2 seconds ...
+14:07:16 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+14:07:17 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+14:07:17 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD17078046876732878054 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:07:17 INFO  : Embedded Template List generated successfully
+14:07:35 INFO  : XSDB server has started successfully from frontend.
+14:07:35 INFO  : It has taken  2secs.
+14:07:36 INFO  : Connection to XSDB Server established.
+14:07:36 INFO  : It has taken  1secs.
+14:07:36 INFO  : Done
+14:07:36 INFO  : connect -url tcp:127.0.0.1:3121
+14:07:38 INFO  : bpremove -all
+14:07:38 INFO  : Context for 'APU' is selected.
+14:07:38 INFO  : System reset is completed.
+14:07:41 INFO  : 'after 3000' command is executed.
+14:07:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:07:44 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:07:44 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:07:44 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:07:44 INFO  : configparams force-mem-access 1
+14:07:44 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:07:44 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:07:44 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:25:37 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+14:25:38 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+14:25:38 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD15761012799081184047 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+14:25:38 INFO  : Embedded Template List generated successfully
+14:25:49 INFO  : XSDB server has started successfully from frontend.
+14:25:49 INFO  : It has taken  2secs.
+14:25:50 INFO  : Connection to XSDB Server established.
+14:25:50 INFO  : It has taken  1secs.
+14:25:50 INFO  : Done
+14:25:50 INFO  : connect -url tcp:127.0.0.1:3121
+14:25:52 INFO  : bpremove -all
+14:26:02 ERROR : Failed to initialize the hardware. Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+14:26:47 INFO  : connect -url tcp:127.0.0.1:3121
+14:26:47 INFO  : bpremove -all
+14:26:56 ERROR : Failed to initialize the hardware. Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+14:29:53 INFO  : connect -url tcp:127.0.0.1:3121
+14:29:53 INFO  : bpremove -all
+14:30:02 ERROR : Failed to initialize the hardware. Could not find ARM device on the board for connection 'Local'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+14:30:30 INFO  : connect -url tcp:127.0.0.1:3121
+14:30:30 INFO  : bpremove -all
+14:30:30 INFO  : Context for 'APU' is selected.
+14:30:30 INFO  : System reset is completed.
+14:30:33 INFO  : 'after 3000' command is executed.
+14:30:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:30:35 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:30:35 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:30:35 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:30:35 INFO  : configparams force-mem-access 1
+14:30:35 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:30:35 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:30:35 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:33:44 INFO  : connect -url tcp:127.0.0.1:3121
+14:33:44 INFO  : bpremove -all
+14:33:44 INFO  : Context for 'APU' is selected.
+14:33:44 INFO  : System reset is completed.
+14:33:47 INFO  : 'after 3000' command is executed.
+14:33:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:33:50 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:33:50 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:33:50 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:33:50 INFO  : configparams force-mem-access 1
+14:33:50 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:33:50 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:33:50 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:34:17 INFO  : connect -url tcp:127.0.0.1:3121
+14:34:17 INFO  : bpremove -all
+14:34:17 INFO  : Context for 'APU' is selected.
+14:34:18 INFO  : System reset is completed.
+14:34:21 INFO  : 'after 3000' command is executed.
+14:34:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+14:34:23 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+14:34:23 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:34:23 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+14:34:23 INFO  : configparams force-mem-access 1
+14:34:23 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+14:34:23 ERROR : couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:34:23 ERROR : Failed to initialize the hardware. couldn't read file "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl": no such file or directory
+14:34:27 INFO  : connection terminated
+14:34:27 INFO  : connection terminated
+14:34:27 INFO  : scheduling shutdown timer for 2 seconds ...
+14:34:29 INFO  : Terminating Vitis C++ Server
+14:34:29 INFO  : Vitis C++ Server terminated
+15:56:09 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+15:56:10 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+15:56:10 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD812173945100259281 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+15:56:11 INFO  : Embedded Template List generated successfully
+15:56:54 INFO  : BSP build will be initiated for Domain zynq_fsbl
+15:56:54 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+15:56:54 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:56:54 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:54 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:56:54 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:54 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:56:54 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:55 INFO  : Domain reconfigured successfully
+15:56:55 INFO  : Domain reconfigured successfully
+15:56:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:56:55 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:55 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:55 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:56:55 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp
+15:56:55 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+15:57:03 INFO  : Domain build successfully
+15:57:03 INFO  : Domain build successfully
+15:57:03 INFO  : Generating Boot ELFs
+15:57:03 INFO  : lopper command to retarget baremetal application :empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+15:57:03 INFO  : cmd.exe, /C, empyro.bat retarget_app -s C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\zynq_fsbl_bsp -b C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+15:57:04 INFO  : [INFO]: Retargeting app
+15:57:04 INFO  : [INFO]: Updating link libraries based on new domain
+15:57:04 INFO  : Successfully retargeted Application C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl
+15:57:04 INFO  : lopper command to build baremetal application :empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+15:57:04 INFO  : cmd.exe, /C, empyro.bat build_app --src_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl --build_dir C:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+15:57:11 INFO  : Successfully building the baremetal applicationC:\Users\MahmoudHc\Desktop\temp\riky\platform\zynq_fsbl\build
+15:57:11 INFO  : Generating Export directory
+15:57:12 INFO  : Platform Build Finished successfully.
+15:59:13 INFO  : connection terminated
+15:59:13 INFO  : connection terminated
+15:59:13 INFO  : scheduling shutdown timer for 2 seconds ...
+15:59:15 INFO  : Terminating Vitis C++ Server
+15:59:15 INFO  : Vitis C++ Server terminated
+16:01:12 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\riky
+16:01:13 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\riky
+16:01:13 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD15679435288180933039 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+16:01:14 INFO  : Embedded Template List generated successfully
+16:02:11 INFO  : The hardware specification used by project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:02:11 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.bit' stored in project is removed.
+16:02:11 INFO  : The file 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream\design_1_wrapper.mmi' stored in project is removed.
+16:02:11 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\bitstream' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+16:02:11 INFO  : The updated ps init files are copied from platform to folder 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component\_ide\psinit' in project 'C:\Users\MahmoudHc\Desktop\temp\riky\app_component'.
+16:02:22 INFO  : XSDB server has started successfully from frontend.
+16:02:22 INFO  : It has taken  6secs.
+16:02:23 INFO  : Connection to XSDB Server established.
+16:02:23 INFO  : It has taken  1secs.
+16:02:26 INFO  : Done
+16:02:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:02:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:02:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+16:02:33 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+16:02:37 INFO  : connect -url tcp:127.0.0.1:3121
+16:02:37 INFO  : bpremove -all
+16:02:37 INFO  : Context for 'APU' is selected.
+16:02:37 INFO  : System reset is completed.
+16:02:40 INFO  : 'after 3000' command is executed.
+16:02:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+16:02:43 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+16:02:43 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:02:43 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:02:43 INFO  : configparams force-mem-access 1
+16:02:43 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:02:43 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+16:02:44 INFO  : ps7_init
+16:02:44 INFO  : ps7_post_config
+16:02:44 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:02:45 INFO  : rst -processor
+16:02:45 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+16:02:45 INFO  : con
+16:02:45 INFO  : configparams force-mem-access 0
+16:02:46 INFO  : Testing the connection for 127.0.0.1
+16:02:53 INFO  : connect -url tcp:127.0.0.1:3121
+16:02:53 INFO  : bpremove -all
+16:02:53 INFO  : Context for 'APU' is selected.
+16:02:53 INFO  : System reset is completed.
+16:02:56 INFO  : 'after 3000' command is executed.
+16:02:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+16:02:59 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+16:02:59 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:02:59 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:02:59 INFO  : configparams force-mem-access 1
+16:02:59 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:02:59 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+16:03:00 INFO  : ps7_init
+16:03:00 INFO  : ps7_post_config
+16:03:00 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:03:00 INFO  : rst -processor
+16:03:00 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+16:03:00 INFO  : con
+16:03:00 INFO  : configparams force-mem-access 0
+16:03:01 INFO  : Testing the connection for 127.0.0.1
+16:03:13 INFO  : disconnect
+16:03:13 INFO  : connect -url tcp:127.0.0.1:3121
+16:03:13 INFO  : bpremove -all
+16:03:13 INFO  : Context for 'APU' is selected.
+16:03:13 INFO  : System reset is completed.
+16:03:16 INFO  : 'after 3000' command is executed.
+16:03:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248763852" && level==0 && jtag_device_ctx=="jsn-Zed-210248763852-23727093-0"}' command is executed.
+16:03:19 INFO  : Device configured successfully with "C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/bitstream/design_1_wrapper.bit"
+16:03:19 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:03:22 INFO  : loadhw -hw C:/Users/MahmoudHc/Desktop/temp/riky/platform/export/platform/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}]
+16:03:22 INFO  : configparams force-mem-access 1
+16:03:22 INFO  : targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:03:22 INFO  : source C:/Users/MahmoudHc/Desktop/temp/riky/app_component/_ide/psinit/ps7_init.tcl
+16:03:22 INFO  : ps7_init
+16:03:22 INFO  : ps7_post_config
+16:03:23 INFO  : targets -set -nocase -filter {name =~ "*A9*#0" && jtag_cable_name =~ "Digilent Zed 210248763852" && jtag_device_ctx=="jsn-Zed-210248763852-4ba00477-0"}
+16:03:23 INFO  : rst -processor
+16:03:23 INFO  : dow C:/Users/MahmoudHc/Desktop/temp/riky/app_component/build/app_component.elf
+16:03:23 INFO  : bpadd main
+16:03:23 INFO  : con
+16:03:23 INFO  : configparams force-mem-access 0
+16:03:24 INFO  : Testing the connection for 127.0.0.1
+16:04:19 INFO  : disconnect
+16:05:00 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD294603261123384943 -r C:\Users\MahmoudHc\Desktop\temp\riky\_ide\.wsdata\.repo.yaml
+16:05:01 INFO  : Embedded Template List generated successfully
+16:05:08 INFO  : Marking the target connection as default Local
+16:05:08 INFO  : Marking the target connection as default Linux Agent
+16:05:08 INFO  : Marking the target connection as default XRTServer
+16:05:08 INFO  : Marking the target connection as default LinuxEmulation
+16:05:08 INFO  : Marking the target connection as default QEMU
