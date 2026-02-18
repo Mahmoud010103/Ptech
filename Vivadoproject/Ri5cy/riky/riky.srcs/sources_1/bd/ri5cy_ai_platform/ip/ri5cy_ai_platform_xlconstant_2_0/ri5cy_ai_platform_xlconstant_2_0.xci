@@ -1,0 +1,50 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "ri5cy_ai_platform_xlconstant_2_0",
+    "cell_name": "xlconstant_3",
+    "component_reference": "xilinx.com:ip:xlconstant:1.1",
+    "ip_revision": "10",
+    "gen_directory": "../../../../../../riky.gen/sources_1/bd/ri5cy_ai_platform/ip/ri5cy_ai_platform_xlconstant_2_0",
+    "parameters": {
+      "component_parameters": {
+        "Component_Name": [ { "value": "ri5cy_ai_platform_xlconstant_2_0", "resolve_type": "user", "usage": "all" } ],
+        "CONST_WIDTH": [ { "value": "32", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "CONST_VAL": [ { "value": "1", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "CONST_WIDTH": [ { "value": "32", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "CONST_VAL": [ { "value": "0x00000001", "resolve_type": "generated", "format": "bitString", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq", "usage": "all" } ],
+        "BASE_BOARD_PART": [ { "value": "avnet.com:zedboard:part0:1.4", "usage": "all" } ],
+        "BOARD_CONNECTIONS": [ { "value": "", "usage": "all" } ],
+        "DEVICE": [ { "value": "xc7z020", "usage": "all" } ],
+        "PACKAGE": [ { "value": "clg484", "usage": "all" } ],
+        "PREFHDL": [ { "value": "VERILOG", "usage": "all" } ],
+        "SILICON_REVISION": [ { "value": "", "usage": "all" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED", "usage": "all" } ],
+        "SPEEDGRADE": [ { "value": "-1", "usage": "all" } ],
+        "STATIC_POWER": [ { "value": "", "usage": "all" } ],
+        "TEMPERATURE_GRADE": [ { "value": "", "usage": "all" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "10" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../riky.gen/sources_1/bd/ri5cy_ai_platform/ip/ri5cy_ai_platform_xlconstant_2_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2025.2" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "dout": [ { "direction": "out", "size_left": "31", "size_right": "0" } ]
+      }
+    }
+  },
+  "checksum": "0b4636a7"
+}
