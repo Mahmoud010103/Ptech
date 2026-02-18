@@ -5,7 +5,7 @@ Ce projet contient une plateforme complète pour le développement, la compilati
 
 ```
 Ptech/
-├── WSL/                    # Toolchains et compilation RISC-V
+├── WSL/                    # Toolchains compilation RISC-V et code c lenet
 ├── Vivadoproject/          # Projets Vivado des processeurs
 └── Workspace Vitis/        # Code Zynq
 ```
