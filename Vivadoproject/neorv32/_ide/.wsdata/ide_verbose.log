@@ -1,0 +1,1362 @@
+2025-12-02 13:51:41 [debug] : --------------------------------------------------------------------------------- 
+2025-12-02 13:51:41 [debug] : C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-02 13:51:41 [debug] : --------------------------------------------------------------------------------- 
+2025-12-02 13:51:41 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\_ide\logs\ide.log 
+2025-12-02 13:51:41 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\_ide\.wsdata\ide_verbose.log 
+2025-12-02 13:51:41 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-12-02 13:51:41 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-02 13:51:41 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-12-02 13:51:41 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-12-02 13:51:41 [debug] : [Logger UI]  Update Log Level  called 
+2025-12-02 13:51:41 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:51:41 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-02 13:51:41 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-02 13:51:41 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-02 13:51:41 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-02 13:51:41 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-02 13:51:41 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-02 13:51:41 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : Marking the target connection as default Local 
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : Marking the target connection as default Linux Agent 
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : Marking the target connection as default XRTServer 
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : Marking the target connection as default LinuxEmulation 
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : Marking the target connection as default QEMU 
+2025-12-02 13:51:41 [debug] : RIGEL SERVER 13:51:41 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-02 13:51:42 [debug] : RIGEL SERVER 13:51:42 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-02 13:51:42 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["49f74fb1-2361-4430-a217-7b733a06d7d5",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:51:42 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-12-02 13:51:42 [debug] : RIGEL SERVER 13:51:42 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw 
+2025-12-02 13:51:42 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-12-02 13:51:42 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:51:42 [debug] : [ProjectCache] Project location updated to undefined 
+2025-12-02 13:51:42 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 29,
+        "endLineNumber": 2,
+        "endColumn": 31
+      },
+      "rangeLength": 2,
+      "text": "[]",
+      "rangeOffset": 31,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:42 [debug] : MonacoEditorModel.cancelSave {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/rtl/system_integration/neorv32_vivado_ip_work/_ide/settings.json"}
+2025-12-02 13:51:44 [debug] : RIGEL SERVER 13:51:44 INFO  : [INFO]: Initializing repositories
+13:51:44 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+13:51:44 INFO  : Successfully created repository data at C:\Users\MahmoudHc\Desktop\temp\neorv32/_ide\.wsdata 
+2025-12-02 13:51:44 [debug] : RIGEL SERVER 13:51:44 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD17810365186502877953 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:51:45 [debug] : RIGEL SERVER 13:51:45 INFO  : Embedded Template List generated successfully 
+2025-12-02 13:51:45 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-02 13:51:45 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-02 13:51:45 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-02 13:51:56 [debug] : [Platform Server] Executing method:[getProcessorOSList] with connection:(object). {"0":"request:","1":{"wrappers_":{"6":[{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_REPO",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_BOARD_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_INCLUDE_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["-dt_overlay","0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["custom_dtsi",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}],"8":[]},"arrayIndexOffset_":-1,"array":["C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\design_1_wrapper.xsa",null,[],[],null,[["VITIS_SDT_REPO",null],["VITIS_SDT_BOARD_DTS",null],["VITIS_SDT_INCLUDE_DTS",null],["-dt_overlay","0"],["custom_dtsi",null]],null,[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,true],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:52:02 [debug] : RIGEL SERVER 13:52:02 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl 
+2025-12-02 13:52:02 [debug] : RIGEL SERVER 13:52:02 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt 
+2025-12-02 13:52:08 [debug] : RIGEL SERVER 13:52:08 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt exists. Files will be overwritten 
+2025-12-02 13:52:08 [debug] : RIGEL SERVER 13:52:08 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa
+13:52:08 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+13:52:08 INFO  : -board_dts 
+13:52:08 INFO  : -include_dts 
+13:52:08 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+13:52:08 INFO  : -zocl disable 
+2025-12-02 13:52:08 [debug] : RIGEL SERVER 13:52:08 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 1 seconds
+13:52:08 INFO  : SDT generated successfully 
+2025-12-02 13:52:08 [debug] : RIGEL SERVER 13:52:08 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts 
+2025-12-02 13:52:08 [debug] : RIGEL SERVER 13:52:08 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts 
+2025-12-02 13:52:09 [debug] : RIGEL SERVER 13:52:09 INFO  : CPU List generated successfully 
+2025-12-02 13:52:14 [debug] : [Platform Server] Executing method:[createPlatformProject] with connection:(object). {"0":"request:","1":{"wrappers_":{"19":[{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_REPO",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_BOARD_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["VITIS_SDT_INCLUDE_DTS",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["-dt_overlay","0"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}},{"wrappers_":null,"arrayIndexOffset_":-1,"array":["custom_dtsi",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}],"22":[]},"arrayIndexOffset_":-1,"array":["platform",null,"C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\platform","C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\design_1_wrapper.xsa","ps7_cortexa9_0","standalone",null,null,null,null,null,null,null,true,null,"",null,null,[["VITIS_SDT_REPO",null],["VITIS_SDT_BOARD_DTS",null],["VITIS_SDT_INCLUDE_DTS",null],["-dt_overlay","0"],["custom_dtsi",null]],null,1,[],"b4fc283a-d12a-4d9e-9fcd-e9b03061efc6",null],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:52:14 [debug] : [Platform Server] Create platform platform requested with internal id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6'. 
+2025-12-02 13:52:14 [debug] : RIGEL SERVER 13:52:14 INFO  : Platform platform creation started. 
+2025-12-02 13:52:14 [debug] : [Platform Output] Creating platform platform with id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6' started. 
+2025-12-02 13:52:14 [debug] : RIGEL SERVER 13:52:14 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts 
+2025-12-02 13:52:14 [debug] : RIGEL SERVER 13:52:14 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : CPU List generated successfully 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : SDT generated successfully. 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:15 [debug] : RIGEL SERVER 13:52:15 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:30 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-files 
+2025-12-02 13:52:34 [debug] : RIGEL SERVER 13:52:33 INFO  : [INFO]: Starting domain creation 
+2025-12-02 13:52:34 [debug] : RIGEL SERVER 13:52:34 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:52:34 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:52:34 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-02 13:52:34 [debug] : RIGEL SERVER 13:52:34 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-02 13:52:34 [debug] : RIGEL SERVER 13:52:34 INFO  : Domain standalone_ps7_cortexa9_0 added successfully. 
+2025-12-02 13:52:34 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2025-12-02 13:52:35 [debug] : RIGEL SERVER 13:52:35 INFO  : [INFO]: Starting domain creation 
+2025-12-02 13:52:35 [debug] : RIGEL SERVER 13:52:35 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:52:35 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:52:35 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp
+13:52:35 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp 
+2025-12-02 13:52:35 [debug] : Received event from notification service: ON_UPDATE_PLATFORM_STATUS. 
+2025-12-02 13:52:35 [debug] : RIGEL SERVER 13:52:35 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:35 [debug] : RIGEL SERVER 13:52:35 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:36 [debug] : RIGEL SERVER 13:52:36 INFO  : Successfully validated template zynq_fsbl 
+2025-12-02 13:52:36 [debug] : RIGEL SERVER 13:52:36 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : [INFO]: Generating Linker script for zynq_fsbl 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : CMake Error at CMakeLists.txt:68 (add_executable):
+13:52:40 ERROR :   Cannot find source file:
+13:52:40 ERROR : 
+13:52:40 ERROR :     ps7_init.c
+13:52:40 ERROR : 
+13:52:40 ERROR :   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+13:52:40 ERROR :   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : CMake Error at CMakeLists.txt:68 (add_executable):
+13:52:40 ERROR :   No SOURCES given to target: fsbl.elf 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : CMake Generate step failed.  Build files cannot be regenerated correctly. 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : [ERROR]: Command 'cmake -G "Ninja" C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl  -DCMAKE_LIBRARY_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/lib -DCMAKE_INCLUDE_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/include -DCMAKE_MODULE_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp -DCMAKE_TOOLCHAIN_FILE=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake -DCMAKE_SPECS_FILE=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec  > NUL' returned non-zero exit status 1. 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : [ERROR]: Failed to generate compile_commands.json 
+2025-12-02 13:52:40 [debug] : RIGEL SERVER 13:52:40 ERROR : Error in creating Baremetal Application. 
+2025-12-02 13:52:41 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-02 13:52:41 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-02 13:52:41 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:41 [debug] : [ProjectCache] Project location updated to undefined 
+2025-12-02 13:52:41 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:41 [debug] : RIGEL SERVER 13:52:41 ERROR : Failed to create platform: platform. Error in creating platform 'platform.' 
+2025-12-02 13:52:41 [debug] : [Platform Server] Creating platform platform  failed on 'platform' with internal id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6'. 
+2025-12-02 13:52:41 [debug] : [Platform Server] Creating platform platform  status event - label: platform, status_code:0, status_details:. 
+2025-12-02 13:52:41 [debug] : [Platform Server] Creating platform platform  output steam finished on 'platform' with internal id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6'. 
+2025-12-02 13:52:41 [info] : [Platform Server] Creating platform platform  output stream finished - platform. 
+2025-12-02 13:52:41 [debug] : [Platform Output] Creating platform platform with id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6' stopped due to errors. 
+2025-12-02 13:52:41 [debug] : [Platform Output] Deleting and canceling the build task with id 'b4fc283a-d12a-4d9e-9fcd-e9b03061efc6'. 
+2025-12-02 13:52:41 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:41 [debug] : [ProjectCache] Project location updated to undefined 
+2025-12-02 13:52:41 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-02 13:52:56 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:56 [debug] : [ProjectCache] Project location updated to undefined 
+2025-12-02 13:52:56 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:56 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-02 13:52:56 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:52:56 [debug] : [ProjectCache] Project location updated to undefined 
+2025-12-02 13:52:56 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-02 13:53:00 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-files 
+2025-12-02 13:53:19 [debug] : Widget was activated, but did not accept focus after 2000ms: rigel-files 
+2025-12-02 13:53:22 [debug] : socket closed 
+2025-12-02 13:53:22 [debug] : closing connection for 1 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/localization-server'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/os'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/commands'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/logger'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/messageService'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-12-02 13:53:22 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/ChannelCloseService'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/envs'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/workspace'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/application'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/i18n'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/quickInput'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/project'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/component'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/debugger'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/debug'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/task'. 
+2025-12-02 13:53:22 [debug] : a client has disconnected - removed from list: 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/search'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/request-service'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/cli-preferences'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/server'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/repository'. 
+2025-12-02 13:53:22 [debug] : [Repository Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-12-02 13:53:22 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/build'. 
+2025-12-02 13:53:22 [debug] : [Build Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/notification'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/aie'. 
+2025-12-02 13:53:22 [debug] : [AIE Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/analysis'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-12-02 13:53:22 [debug] : [Logger Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/platform'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/device'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-12-02 13:53:22 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/open-ai/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/mcpservermanager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/languageModelRegistryDelegatePath'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/languageModelDelegatePath'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/rigel-ai/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/anthropic/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/google/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/huggingface/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/llamafilemanager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/ollama/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/vercel-ai/language-model-manager'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/config-file'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-12-02 13:53:22 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/report-model'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/scanoss/service'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/hls-config'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/keyStore'. 
+2025-12-02 13:53:22 [debug] : Closing channel on service path '/services/languagePackService'. 
+2025-12-02 13:53:23 [debug] : creating connection for 1 
+2025-12-02 13:53:24 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : a client has connected - adding it to the list: 
+2025-12-02 13:53:24 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:24 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : [Workspace Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : [Debugger Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : [Repository Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : [Logger Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2025-12-02 13:53:24 [debug] : getTasks(): about to return task information for 0 tasks 
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:24 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : Frontend u.initialize: 1.7 ms [Finished 2.647 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend g.initialize: 1.1 ms [Finished 2.648 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend g.initialize: 0.0 ms [Finished 2.648 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend n.initialize: 0.0 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend Object.initialize: 0.1 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend a.initialize: 0.0 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend C.initialize: 0.1 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend f.initialize: 0.1 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend w.initialize: 0.1 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend d.initialize: 0.0 ms [Finished 2.649 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend y.initialize: 2.7 ms [Finished 2.652 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend d.initialize: 0.0 ms [Finished 2.652 s after frontend start] 
+2025-12-02 13:53:24 [debug] : Frontend f.initialize: 0.0 ms [Finished 2.652 s after frontend start] 
+2025-12-02 13:53:24 [debug] : [Rigel Utils Client] Initializaton completed. 
+2025-12-02 13:53:24 [debug] : [Workspace Client] Initializaton completed. 
+2025-12-02 13:53:24 [debug] : [Debugger Client] Initializaton completed. 
+2025-12-02 13:53:24 [debug] : [Repository Client] Initializaton completed. 
+2025-12-02 13:53:24 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-02 13:53:24 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-02 13:53:24 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-02 13:53:24 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2025-12-02 13:53:24 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-02 13:53:24 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-02 13:53:24 [debug] : [Logger Client] Initializaton completed. 
+2025-12-02 13:53:24 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-02 13:53:24 [debug] : [HLS Flow Client] Initialization completed. 
+2025-12-02 13:53:25 [debug] : Frontend T.initialize: 82.6 ms [Finished 2.735 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend n.initialize: 0.0 ms [Finished 2.735 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend n.initialize: 0.0 ms [Finished 2.735 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Program Flash Output] Adding listeners to program flash service. 
+2025-12-02 13:53:25 [debug] : Frontend T.initialize: 0.1 ms [Finished 2.735 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Program Device Output] Adding listeners to program device service. 
+2025-12-02 13:53:25 [debug] : Frontend T.initialize: 0.1 ms [Finished 2.736 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Build Output] Adding listeners to build service. 
+2025-12-02 13:53:25 [debug] : Frontend z.initialize: 0.5 ms [Finished 2.736 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Launch Menu] Adding listeners to manage launch session. 
+2025-12-02 13:53:25 [debug] : [Debug Manager] A debug session listener is registered to receive launch events. 
+2025-12-02 13:53:25 [debug] : Frontend X.initialize: 0.5 ms [Finished 2.737 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend h.initialize: 0.2 ms [Finished 2.737 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend g.initialize: 0.2 ms [Finished 2.738 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend h.initialize: 0.1 ms [Finished 2.738 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_hls_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":4,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_aie_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":3,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-02 13:53:25 [debug] : RIGEL SERVER 13:53:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD10059834704906606999 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-02 13:53:25 [debug] : Adding listeners to preference service. 
+2025-12-02 13:53:25 [debug] : Frontend h.initialize: 0.2 ms [Finished 2.739 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Platform Output] Adding listeners to build service. 
+2025-12-02 13:53:25 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2025-12-02 13:53:25 [debug] : Frontend B.initialize: 0.2 ms [Finished 2.739 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Elf Reader Client]  {"0":"Rigel Utils Server registered"}
+2025-12-02 13:53:25 [debug] : Frontend v.initialize: 7.3 ms [Finished 2.746 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend f.initialize: 0.2 ms [Finished 2.747 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [HLS Output] Adding listeners to HLS service. 
+2025-12-02 13:53:25 [debug] : Frontend m.initialize: 0.3 ms [Finished 2.747 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend c.initialize: 0.5 ms [Finished 2.754 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.initialize: 0.5 ms [Finished 2.755 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["e7b5a5a5-4eb0-42c4-8ed3-9c9c67e07d9a",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Elf Reader Client] Initializaton completed. 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : Frontend J.configure: 18.4 ms [Finished 2.773 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.configure: 0.2 ms [Finished 2.774 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : Frontend u.configure: 0.6 ms [Finished 2.775 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend $.configure: 0.2 ms [Finished 2.775 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Application UI init preferences 
+2025-12-02 13:53:25 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2025-12-02 13:53:25 [debug] : A command rigel.edit.config is already registered. 
+2025-12-02 13:53:25 [debug] : Frontend commands.onStart: 30.1 ms [Finished 2.806 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-12-02 13:53:25 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["2b344bc0-1529-44a8-97d5-c89055fbe976",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_hls_examples 
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : Application UI init preferences 
+2025-12-02 13:53:25 [debug] : Frontend keybindings.onStart: 76.6 ms [Finished 2.883 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend menus.onStart: 13.8 ms [Finished 2.897 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 6.4 ms [Finished 2.903 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.904 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend f.onStart: 25.9 ms [Finished 2.930 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend g.onStart: 9.0 ms [Finished 2.939 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend J.onStart: 0.3 ms [Finished 2.940 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.onStart: 1.1 ms [Finished 2.941 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 9.0 ms [Finished 2.951 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.951 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.952 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend u.onStart: 5.5 ms [Finished 2.957 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.onStart: 0.2 ms [Finished 2.958 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend $.onStart: 0.2 ms [Finished 2.958 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.958 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend d.onStart: 0.2 ms [Finished 2.959 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.4 ms [Finished 2.959 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend u.onStart: 0.2 ms [Finished 2.959 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.960 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend m.onStart: 0.2 ms [Finished 2.960 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend C.onStart: 0.2 ms [Finished 2.960 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend c.onStart: 0.2 ms [Finished 2.961 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend v.onStart: 0.1 ms [Finished 2.961 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend w.onStart: 0.2 ms [Finished 2.962 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend g.onStart: 0.6 ms [Finished 2.962 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend s.onStart: 0.3 ms [Finished 2.963 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend x.onStart: 0.5 ms [Finished 2.963 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend v.onStart: 0.4 ms [Finished 2.964 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend g.onStart: 0.4 ms [Finished 2.965 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend $.onStart: 0.3 ms [Finished 2.966 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend f.onStart: 0.4 ms [Finished 2.966 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend h.onStart: 0.0 ms [Finished 2.966 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.onStart: 0.2 ms [Finished 2.967 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend w.onStart: 0.1 ms [Finished 2.967 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend Object.onStart: 0.3 ms [Finished 2.968 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.onStart: 0.2 ms [Finished 2.968 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend T.onStart: 2.0 ms [Finished 2.970 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.971 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.3 ms [Finished 2.971 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend H.onStart: 0.1 ms [Finished 2.971 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend $.onStart: 0.1 ms [Finished 2.971 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend n.onStart: 0.1 ms [Finished 2.972 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend a.onStart: 0.1 ms [Finished 2.972 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend $.onStart: 0.0 ms [Finished 2.972 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-12-02 13:53:25 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-12-02 13:53:25 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] vitis_hls_examples:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:ai_engine_test_harness 
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-02 13:53:25 [debug] : [55705d87-d87d-4a71-8513-d1252b11b6e8] Waiting for backend deployment: 38.7 ms [Finished 3.007 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] vitis_examples:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] installed_examples:true 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] ai_engine_test_harness:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-02 13:53:25 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-02 13:53:25 [debug] : Linked preference "workbench.colorCustomizations" not found. 
+2025-12-02 13:53:25 [debug] : [55705d87-d87d-4a71-8513-d1252b11b6e8] Sync of 18 plugins: 247.6 ms [Finished 3.255 s after frontend start] 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-02 13:53:25 [debug] : no activative navigation {"0":"Error: No active navigation\n    at n.register (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:913236)\n    at n.restoreNavigationLocations (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:25267574)\n    at async n.restoreState (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:25267164)"}
+2025-12-02 13:53:25 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\MahmoudHc\Desktop\temp\riky' in the server from service. 
+2025-12-02 13:53:25 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\MahmoudHc\\Desktop\\temp\\riky","executionMode":0} 
+2025-12-02 13:53:25 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["ef6856c8-8c28-4159-9471-4d219fe5f006",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : [hosted-plugin: 29184] PLUGIN_HOST(29184) starting instance 
+2025-12-02 13:53:25 [debug] : Frontend f.onStart took longer than the expected maximum 100 milliseconds: 358.2 ms [Finished 3.330 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend c.onStart: 0.1 ms [Finished 3.331 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend y.onStart: 5.6 ms [Finished 3.337 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend w.onStart: 0.4 ms [Finished 3.338 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend B.onStart: 0.3 ms [Finished 3.339 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend u.onStart: 0.7 ms [Finished 3.359 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.7 ms [Finished 3.360 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.5 ms [Finished 3.361 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.2 ms [Finished 3.361 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend p.onStart: 7.7 ms [Finished 3.369 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend d.onStart: 0.5 ms [Finished 3.370 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend u.onStart: 0.1 ms [Finished 3.370 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend E.onStart: 0.5 ms [Finished 3.371 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend d.onStart: 0.1 ms [Finished 3.371 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend u.onStart: 0.3 ms [Finished 3.372 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend c.onStart: 0.2 ms [Finished 3.372 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend c.onStart: 0.1 ms [Finished 3.372 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.2 ms [Finished 3.373 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.3 ms [Finished 3.373 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-nano 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-mini 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4-turbo 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o-mini 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-7-sonnet-20250219 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-5-haiku-20241022 
+2025-12-02 13:53:25 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-opus-20240229 
+2025-12-02 13:53:25 [debug] : Frontend l.onStart: 0.3 ms [Finished 3.373 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Start frontend contributions: 763.1 ms [Finished 3.374 s after frontend start] 
+2025-12-02 13:53:25 [debug] : Changed application state from 'init' to 'started_contributions'. 
+2025-12-02 13:53:25 [debug] : Changed application state from 'started_contributions' to 'attached_shell'. 
+2025-12-02 13:53:25 [debug] : >>> Restoring the layout state... 
+2025-12-02 13:53:25 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-12-02 13:53:25 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["fc2944f4-7e4b-4389-9752-ca25a187df2a",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-02 13:53:25 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-12-02 13:53:25 [debug] : RIGEL SERVER 13:53:25 INFO  : Embedded Template List generated successfully 
+2025-12-02 13:53:25 [debug] : Couldn't attach - can't find terminal with id: 1112317713  
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 1,
+        "startColumn": 1,
+        "endLineNumber": 1,
+        "endColumn": 1
+      },
+      "rangeOffset": 0,
+      "rangeLength": 0,
+      "text": ""
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": true
+} {"0":"debugconsole:/"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"debugconsole:/"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSync {"0":"debugconsole:/"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"debugconsole:/"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"debugconsole:/"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-02 13:53:25 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-02 13:53:25 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-02 13:53:25 [debug] : Failed attaching to terminal id 1112317713, the terminal is most likely gone. Starting up a new terminal instead. 
+2025-12-02 13:53:26 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:26 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-02 13:53:26 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-09 10:49:56 [debug] : --------------------------------------------------------------------------------- 
+2025-12-09 10:49:56 [debug] : C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-09 10:49:56 [debug] : --------------------------------------------------------------------------------- 
+2025-12-09 10:49:56 [debug] : [Logger] Previous user logs are stored in the file - C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\_ide\logs\ide.log 
+2025-12-09 10:49:56 [debug] : [Logger] Previous debug logs are stored in the file - C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\_ide\.wsdata\ide_verbose.log 
+2025-12-09 10:49:56 [debug] : RIGEL SERVER 10:49:56 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-09 10:49:56 [debug] : <<< The layout has been successfully restored. 
+2025-12-09 10:49:56 [debug] : Initialize the workbench layout: 168.8 ms [Finished 3.185 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Changed application state from 'attached_shell' to 'initialized_layout'. 
+2025-12-09 10:49:56 [debug] : Frontend d.onDidInitializeLayout: 0.1 ms [Finished 3.185 s after frontend start] 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4] Loading plugin contributions 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][eclipse-cdt.serial-monitor]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.json-language-features]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][pkief.material-icon-theme]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.git-base]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][eamodio.gitlens]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.tcf-debug]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][twxs.cmake]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-config]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-l1-library]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-pragma]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-verilog-vhdl-support]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-output]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.cpp]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.json]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][llvm-vs-code-extensions.vscode-clangd]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][webfreak.debug]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.git]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.make]: Loaded contributions. 
+2025-12-09 10:49:56 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4] Load contributions of 18 plugins: 304.3 ms [Finished 3.490 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Frontend c.onDidInitializeLayout: 13.7 ms [Finished 3.504 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Frontend n.onDidInitializeLayout: 1.1 ms [Finished 3.507 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Frontend T.onDidInitializeLayout: 1.5 ms [Finished 3.510 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Frontend p.onDidInitializeLayout: 3.9 ms [Finished 3.514 s after frontend start] 
+2025-12-09 10:49:56 [debug] : Frontend h.onDidInitializeLayout: 0.0 ms [Finished 3.515 s after frontend start] 
+2025-12-09 10:49:57 [debug] : RIGEL SERVER 10:49:57 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\neorv32 
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 2,
+        "startColumn": 47,
+        "endLineNumber": 2,
+        "endColumn": 52
+      },
+      "rangeLength": 5,
+      "text": "false",
+      "rangeOffset": 49,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 3,
+        "startColumn": 29,
+        "endLineNumber": 3,
+        "endColumn": 37
+      },
+      "rangeLength": 8,
+      "text": "\"custom\"",
+      "rangeOffset": 85,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 4,
+        "startColumn": 29,
+        "endLineNumber": 14,
+        "endColumn": 6
+      },
+      "rangeLength": 310,
+      "text": "{\r\n        \"**/.git/objects/**\": true,\r\n        \"**/.git/subtree-cache/**\": true,\r\n        \"**/_build/**\": true,\r\n        \"**/build/**\": true,\r\n        \"**/export/**\": true,\r\n        \"**/hls/impl/**\": true,\r\n        \"**/hls/syth/**\": true,\r\n        \"**/hls/syn/**\": true,\r\n        \"**/hls/csim/**\": true\r\n    }",
+      "rangeOffset": 124,
+      "forceMoveMarkers": false
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 4,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.markAsDirty - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope 
+2025-12-09 10:49:57 [debug] : a registered grammar configuration for 'cpp' language is overridden 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider]  updating the embedded templates on workspace event. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-09 10:49:57 [debug] : Received event from notification service: ON_DID_UPDATE_WORKSPACE. 
+2025-12-09 10:49:57 [debug] : [Logger Client] log levelchanged to  {"0":"Info"}
+2025-12-09 10:49:57 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:49:57 [debug] : [Logger UI]  Update Log Level  called 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-09 10:49:57 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-09 10:49:57 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-09 10:49:57 [debug] : RIGEL SERVER 10:49:57 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD18177850478674255869 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-09 10:49:57 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-09 10:49:57 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-12-09 10:49:57 [debug] : Received event from notification service: ON_DID_REFRESH_WORKSPACE_SUMMARIES. 
+2025-12-09 10:49:57 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["18ce2de5-5e14-4db9-a2df-d5b9f04dbd21",null,54,null,null,null,null,"refresh-summaries"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:49:57 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-09 10:49:57 [debug] : [Logger UI]  Update Log Level success {"0":{"success":true,"error":""}}
+2025-12-09 10:49:57 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-12-09 10:49:57 [debug] : getTasks(): about to return task information for 0 tasks 
+2025-12-09 10:49:57 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-09 10:49:57 [debug] : [ProjectCache] Project location updated to C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1 
+2025-12-09 10:49:57 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSync {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : MonacoEditorModel.cancelSave {"0":"user-storage:/user/settings.json"}
+2025-12-09 10:49:57 [debug] : Frontend H.onDidInitializeLayout took longer than the expected maximum 100 milliseconds: 707.1 ms [Finished 4.222 s after frontend start] 
+2025-12-09 10:49:57 [debug] : Frontend P.onDidInitializeLayout: 0.1 ms [Finished 4.222 s after frontend start] 
+2025-12-09 10:49:57 [debug] : Frontend D.onDidInitializeLayout: 0.3 ms [Finished 4.222 s after frontend start] 
+2025-12-09 10:49:57 [debug] : Frontend R.onDidInitializeLayout: 0.0 ms [Finished 4.223 s after frontend start] 
+2025-12-09 10:49:57 [debug] : Frontend v.onDidInitializeLayout: 0.0 ms [Finished 4.223 s after frontend start] 
+2025-12-09 10:49:57 [debug] : Frontend h.onDidInitializeLayout: 0.3 ms [Finished 4.223 s after frontend start] 
+2025-12-09 10:49:57 [debug] : [RIGEL_OUTPUT] File does not exist: \ps7_init.c 
+2025-12-09 10:49:57 [debug] : RIGEL SERVER 10:49:57 INFO  : Embedded Template List generated successfully 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-09 10:49:57 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-09 10:49:57 [debug] : [RIGEL_OUTPUT] File does not exist: C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp\cortexa9_toolchain.c 
+2025-12-09 10:49:57 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/init() 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(serial-monitor@1.0.2 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(json-language-features@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(material-icon-theme@5.15.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(git-base@1.95.3 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(gitlens@11.7.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(tcf-debug@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(cmake@0.0.17 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vitis-config@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vitis-hls-l1-library@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vitis-hls-pragma@0.6.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vitis-hls-verilog-vhdl-support@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vitis-output@0.0.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(cpp@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(json@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(vscode-clangd@0.1.33 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(debug@0.27.0 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(git@1.95.3 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : PLUGIN_HOST(22804): initializing(make@1.88.1 with C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\plugin-vscode-init) 
+2025-12-09 10:49:57 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-09 10:49:57 [debug] : Debugger contribution has been registered: tcf-debug 
+2025-12-09 10:49:57 [debug] : Debugger contribution has been registered: gdb 
+2025-12-09 10:49:57 [debug] : Debugger contribution has been registered: lldb-mi 
+2025-12-09 10:49:57 [debug] : Debugger contribution has been registered: mago-mi 
+2025-12-09 10:49:57 [debug] : Unsupported activation events: oncommand:gitlens.copyCurrentBranch, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-12-09 10:49:57 [debug] : Unsupported activation events: onEditSession:file, please open an issue: https://github.com/eclipse-theia/theia/issues/new 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-output-0.0.1\extension\lib\extension.js) 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-builtin-json-language-features\extension\client\dist\node\jsonClientMain) 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git-base\extension\dist\extension.js) 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin amd.vitis-output 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin Git Base (built-in) 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode.git\extension\dist\main) 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin Git (built-in) 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4] Starting plugins. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][eclipse-cdt.serial-monitor]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.json-language-features]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][pkief.material-icon-theme]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.git-base]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][eamodio.gitlens]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.tcf-debug]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][twxs.cmake]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-config]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-l1-library]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-pragma]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-hls-verilog-vhdl-support]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][amd.vitis-output]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.cpp]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.json]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][llvm-vs-code-extensions.vscode-clangd]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][webfreak.debug]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.git]: Started plugin. 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4][vscode.make]: Started plugin. 
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 74,
+        "startColumn": 1,
+        "endLineNumber": 74,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:49:57 INFO  : Embedded Template List generated successfully\r\n",
+      "rangeOffset": 9203,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 2,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eamodio-gitlens\extension\dist\gitlens) 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vscode-material-icon-theme\extension\dist\extension\desktop\extension.cjs) 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\eclipse-cdt.serial-monitor\extension\dist\desktop\extension.js) 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin Web and Desktop Serial Monitor 
+2025-12-09 10:49:58 [debug] : [INFO] 2025-12-09T09:49:58.436Z - Translations initialized. 
+2025-12-09 10:49:58 [debug] : [INFO] 2025-12-09T09:49:58.438Z - Extension activated! 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin Material Icon Theme 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin JSON Language Features (built-in) 
+2025-12-09 10:49:58 [debug] : Frontend application start: 2759.3 ms [Finished 5535.846 s after backend start] 
+2025-12-09 10:49:58 [debug] : Replace loading indicator with ready workbench UI (animation): 850.1 ms [Finished 5.073 s after frontend start] 
+2025-12-09 10:49:58 [debug] : Changed application state from 'initialized_layout' to 'ready'. 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin GitLens — Git supercharged 
+2025-12-09 10:49:58 [debug] : [04ec0d74-0499-4485-a327-e0ab32bb65f4] Start of 18 plugins: 1573.1 ms [Finished 5.110 s after frontend start] 
+2025-12-09 10:49:58 [debug] : PLUGIN_HOST(22804): PluginManagerExtImpl/loadPlugin(C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\plugins\vitis-config-0.0.1\extension\out\cfg-lsp-extension.js) 
+2025-12-09 10:49:58 [debug] : ACTIVATE CONFIG LSP EXTENSION 
+2025-12-09 10:49:58 [debug] : Calling activation function on plugin amd.vitis-config 
+2025-12-09 10:49:58 [debug] : No label for action menu node: No command "workspace:addFolder" exists. 
+2025-12-09 10:49:58 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-09 10:49:59 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-09 10:49:59 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:17 [debug] : [Platform Server] Executing method:[generatePlatform] with connection:(object). {"0":"request:","1":"C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1"}
+2025-12-09 10:50:17 [debug] : [Platform Server] Generate platform requested for platform1 with internal id '2ca3b7c6-fa11-4217-912f-b3104e915db2'. 
+2025-12-09 10:50:17 [debug] : Received event from notification service: ON_DID_OPEN_COMPONENT. 
+2025-12-09 10:50:17 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2025-12-09 10:50:17 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2025-12-09 10:50:17 [debug] : [Platform Output] Generate platform1 platform with id '2ca3b7c6-fa11-4217-912f-b3104e915db2' started. 
+2025-12-09 10:50:17 [debug] : RIGEL SERVER 10:50:17 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:50:17 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0 
+2025-12-09 10:50:17 [debug] : RIGEL SERVER 10:50:17 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:17 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-09 10:50:17 [debug] : RIGEL SERVER 10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-09 10:50:17 [debug] : RIGEL SERVER 10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp 
+2025-12-09 10:50:17 [debug] : RIGEL SERVER 10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 INFO  : Domain reconfigured successfully 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 INFO  : Domain reconfigured successfully 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 ERROR : [ERROR]: Command 'cmake --build . --parallel 22 ' returned non-zero exit status 1. 
+2025-12-09 10:50:18 [debug] : RIGEL SERVER 10:50:18 ERROR : [ERROR]: Failed to build the BSP
+10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/gcc/translation_table.S.obj 
+10:50:18 ERROR : FAILED: libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj 
+10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/xil_misc_psreset_api.c.obj 
+10:50:18 ERROR : Domain build is not successful. Domain path 'C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp'. 
+2025-12-09 10:50:19 [debug] : RIGEL SERVER 10:50:19 INFO  : Domain build successfully 
+2025-12-09 10:50:19 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2025-12-09 10:50:19 [debug] : [Platform Server] Generate platform failed on 'platform1' with internal id '2ca3b7c6-fa11-4217-912f-b3104e915db2'. 
+2025-12-09 10:50:19 [debug] : [Platform Server] Generate platform status event - label: platform1, status_code:0, status_details:. 
+2025-12-09 10:50:19 [debug] : [Platform Server] Generate platform output steam finished on 'platform1' with internal id '2ca3b7c6-fa11-4217-912f-b3104e915db2'. 
+2025-12-09 10:50:19 [info] : [Platform Server] Generate platform output stream finished - platform1. 
+2025-12-09 10:50:19 [debug] : RIGEL SERVER 10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.'
+10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.' 
+2025-12-09 10:50:19 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2025-12-09 10:50:19 [debug] : [Platform Output] Generate platform1 platform with id '2ca3b7c6-fa11-4217-912f-b3104e915db2' stopped due to errors. 
+2025-12-09 10:50:19 [debug] : [Platform Output] Deleting and canceling the build task with id '2ca3b7c6-fa11-4217-912f-b3104e915db2'. 
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 75,
+        "startColumn": 1,
+        "endLineNumber": 75,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:50:17 INFO  : BSP build will be initiated for Domain zynq_fsbl\r\n10:50:17 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0\r\n10:50:17 INFO  : Generating BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:17 INFO  : Generating BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:18 INFO  : Domain reconfigured successfully\r\n10:50:18 INFO  : Generating BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:18 INFO  : Domain reconfigured successfully\r\n10:50:18 INFO  : Generating BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:18 ERROR : [ERROR]: Command 'cmake --build . --parallel 22 ' returned non-zero exit status 1.\r\n10:50:18 ERROR : [ERROR]: Failed to build the BSP\r\n10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/gcc/translation_table.S.obj \r\n10:50:18 ERROR : FAILED: libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj \r\n10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/xil_misc_psreset_api.c.obj \r\n10:50:18 ERROR : Domain build is not successful. Domain path 'C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp'.\r\n10:50:19 INFO  : Domain build successfully\r\n10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.'\r\n10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.'\r\n",
+      "rangeOffset": 9267,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 3,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:19 [debug] : [RIGEL_OUTPUT] File does not exist: \libsrc\xiltimer\src\CMakeFiles\xiltimer.dir\core\default_timer\globaltimer_sleep_zynq.c 
+2025-12-09 10:50:19 [debug] : [RIGEL_OUTPUT] File does not exist: \libsrc\standalone\src\CMakeFiles\xilstandalone.dir\arm\cortexa9\xil_misc_psreset_api.c 
+2025-12-09 10:50:24 [debug] : [Platform Server] Executing method:[cleanPlatform] with connection:(object). {"0":"request:","1":"C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1"}
+2025-12-09 10:50:24 [debug] : [Platform Server] Clean platform requested for platform1 with internal id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca'. 
+2025-12-09 10:50:24 [debug] : [ProjectCache] fetching projects for project-cache 
+2025-12-09 10:50:24 [debug] : Received event from notification service: ON_DID_BUILD_START. 
+2025-12-09 10:50:24 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-09 10:50:24 [debug] : [ProjectDecorator] tree decoration updated 
+2025-12-09 10:50:24 [debug] : [ProjectCache] Project location updated to C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1 
+2025-12-09 10:50:24 [debug] : [Platform Server] Executing method:[getPartFromXSA] with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":["C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:24 [debug] : RIGEL SERVER 10:50:24 INFO  : Cleaning BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:24 INFO  : Cleaning BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp --clean
+10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp --clean
+10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp --clean
+10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp --clean 
+2025-12-09 10:50:24 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2025-12-09 10:50:25 [debug] : [Platform Output] Clean platform1 platform with id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca' started. 
+2025-12-09 10:50:25 [debug] : RIGEL SERVER 10:50:25 INFO  : Domain clean successfully 
+2025-12-09 10:50:25 [debug] : RIGEL SERVER 10:50:25 INFO  : Domain clean successfully 
+2025-12-09 10:50:25 [debug] : RIGEL SERVER 10:50:25 INFO  : Clean Platform successfully for platform1 
+2025-12-09 10:50:25 [debug] : Received event from notification service: ON_DID_BUILD_STOP. 
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.cancelSync {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.doSync - exit - cancelled while looking for a resource {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.doSync - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.fireDidChangeContent - enter - {
+  "changes": [
+    {
+      "range": {
+        "startLineNumber": 100,
+        "startColumn": 1,
+        "endLineNumber": 100,
+        "endColumn": 1
+      },
+      "rangeLength": 0,
+      "text": "10:50:24 INFO  : Cleaning BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp\r\n10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp --clean\r\n10:50:24 INFO  : Cleaning BSP for the domain C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp\r\n10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp --clean\r\n10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\zynq_fsbl\\zynq_fsbl_bsp --clean\r\n10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work\\platform1\\ps7_cortexa9_0\\standalone_ps7_cortexa9_0\\bsp --clean\r\n10:50:25 INFO  : Domain clean successfully\r\n10:50:25 INFO  : Domain clean successfully\r\n10:50:25 INFO  : Clean Platform successfully for platform1\r\n",
+      "rangeOffset": 12743,
+      "forceMoveMarkers": true
+    }
+  ],
+  "eol": "\r\n",
+  "isEolChange": false,
+  "versionId": 4,
+  "isUndoing": false,
+  "isRedoing": false,
+  "isFlush": false
+} {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.markAsDirty - enter {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.markAsDirty - exit - ignoring dirty changes enabled {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.fireDidChangeContent - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : MonacoEditorModel.doSync - exit {"0":"file:///c:/Users/MahmoudHc/Desktop/temp/neorv32/_ide/logs/vitis.log"}
+2025-12-09 10:50:25 [debug] : [Platform Server] Clean platform completed on 'platform1' with internal id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca'. 
+2025-12-09 10:50:25 [debug] : [Platform Server] Clean platform status event - label: platform1, status_code:0, status_details:. 
+2025-12-09 10:50:25 [debug] : [Platform Server] Clean platform output steam finished on 'platform1' with internal id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca'. 
+2025-12-09 10:50:25 [info] : [Platform Server] Clean platform output stream finished - platform1. 
+2025-12-09 10:50:25 [debug] : Received event from notification service: ON_UPDATE_FLOWNAVIGATOR_STATUS. 
+2025-12-09 10:50:25 [debug] : [Platform Output] Clean platform1 platform with id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca' completed. 
+2025-12-09 10:50:25 [debug] : [Platform Output] Deleting and canceling the build task with id 'fe8d0732-c3aa-4ee3-a38d-e9b716ce49ca'. 
+2025-12-09 10:50:30 [debug] : Widget was activated, but did not accept focus after 2000ms: Examples-widget 
+2025-12-09 10:50:40 [debug] : socket closed 
+2025-12-09 10:50:40 [debug] : closing connection for 1 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/localization-server'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/os'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/commands'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/logger'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/messageService'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/rigel-utils'. 
+2025-12-09 10:50:40 [debug] : [Rigel Utils Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/ChannelCloseService'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/remote-filesystem'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/envs'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/startup-workspace'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/rigel-workspace'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/workspace'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/keyboard'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/stopwatch'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/application'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/i18n'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/quickInput'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/project'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/component'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/feature-registry'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/debugger'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/debug'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/shell-terminal'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/quickPick'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/task'. 
+2025-12-09 10:50:40 [debug] : a client has disconnected - removed from list: 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/search'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hostedPlugin'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/plugin-ext'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/plugin-paths'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/vsx-environment'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/request-service'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/cli-preferences'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/server'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/repository'. 
+2025-12-09 10:50:40 [debug] : [Repository Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/program_flash'. 
+2025-12-09 10:50:40 [debug] : [Program Flash Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/build'. 
+2025-12-09 10:50:40 [debug] : [Build Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/notification'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path 'services/rigel-backend-helper'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/aie'. 
+2025-12-09 10:50:40 [debug] : [AIE Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/analysis'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/recent-summaries'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/rigel_explorer'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/linker-script'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/rigel-logger'. 
+2025-12-09 10:50:40 [debug] : [Logger Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/platform'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/vitis-hls'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/device'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/mini-browser-service'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/flow_navigator'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/common/data/info'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/common/file/service'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/report'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/dataflow/info'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/l1library/service'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/directive'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls_flow'. 
+2025-12-09 10:50:40 [debug] : [Hls Flow Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/search-in-workspace'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/open-ai/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/mcpservermanager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/languageModelRegistryDelegatePath'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/languageModelDelegatePath'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/rigel-ai/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/anthropic/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/google/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/huggingface/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/llamafilemanager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/ollama/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/vercel-ai/language-model-manager'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/config-file'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/elf-reader'. 
+2025-12-09 10:50:40 [debug] : [Elf Reader Server] Disposing objects in backend. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/project-utils'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/bootgen'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/cdo-utils'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/report-model'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls/wave/open'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/scanoss/service'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/hls-config'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/keyStore'. 
+2025-12-09 10:50:40 [debug] : Closing channel on service path '/services/languagePackService'. 
+2025-12-09 10:50:40 [debug] : Uncaught Exception:  {"0":"Error: client namespace disconnect"}
+2025-12-09 10:50:40 [debug] : Error: client namespace disconnect
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:20265
+    at Map.forEach (<anonymous>)
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:20245
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:126060
+    at s.invoke (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:126149)
+    at a.fire (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:127948)
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:57134
+    at Map.forEach (<anonymous>)
+    at Object.<anonymous> (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:57105)
+    at e.dispose (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:329602)
+    at t.DisposableCollection.dispose (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:329321)
+    at t.ChannelMultiplexer.dispose (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:59028)
+    at t.ChannelMultiplexer.onUnderlyingChannelClose (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:57260)
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:56779
+    at C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:126060
+    at s.invoke (C:\AMDDesignTools\2025.2\Vitis\ide\electron-app\win64\resources\app\lib\backend\69.js:2:126149) 
+2025-12-09 10:50:41 [debug] : creating connection for 1 
+2025-12-09 10:50:42 [debug] : [Rigel Utils Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Workspace Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Debugger Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : a client has connected - adding it to the list: 
+2025-12-09 10:50:42 [debug] : [Repository Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Program Flash Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Build Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [AIE Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Logger Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Platform Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Hls Flow Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Rigel Utils Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : [Workspace Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : [Debugger Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : [Repository Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : [Logger Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : [Hls Flow Server] Initializing the frontend client. 
+2025-12-09 10:50:42 [debug] : getTasks(): about to return task information for 1 tasks 
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:listAppRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:listAieExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:listHlsExampleRepos with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getEmbeddedExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:listAieExampleRepos. {"0":"result:","1":[{"id":"installed_aie_examples","name":"Installed AI Engine Examples","description":"This repository contains some simple AI Engine examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_aie_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":3,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:listHlsExampleRepos. {"0":"result:","1":[{"id":"vitis_hls_examples","name":"Vitis HLS Introductory Examples","description":"Basic examples for Vitis HLS.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_hls_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_hls_examples","gitUrl":"https://github.com/Xilinx/Vitis-HLS-Introductory-Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":4,"preScript":""},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:listAppRepos. {"0":"result:","1":[{"id":"vitis_examples","name":"Vitis Accel Examples Repository","description":"This repository contains examples to showcase various features of the Vitis tools and platforms. The examples illustrate specific scenarios related to host code and kernel programming through small working examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_examples","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_examples","gitUrl":"https://github.com/Xilinx/Vitis_Accel_Examples.git","gitBranch":"2025.2","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"installed_examples","name":"Installed Examples Repository","description":"This repository contains some simple examples.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/installed_examples","localDirectory":"C:/AMDDesignTools/2025.2/Vitis/samples","gitUrl":"","gitBranch":"","gitSubfoldersList":[],"type":2,"preScript":""},{"id":"ai_engine_test_harness","name":"AI Engine Test Harness","description":"AIE (AI Engine) Test Harness is designed to assist AIE application designers in verifying and benchmarking their designs on the Versal platforms such as the VCK190, with the ease of a software simulator. Most importantly, AIE Test Harness allows the developers to conduct testing across diverse host systems, including x86 and ARM.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/ai_engine_test_harness","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/ai_engine_test_harness","gitUrl":"https://github.com/Xilinx/AI-Engine-Test-Harness.git","gitBranch":"main","gitSubfoldersList":[],"type":2,"preScript":"bin/download.sh"},{"id":"vitis_libraries","name":"Vitis Accelerated Libraries Repository","description":"The Vitis software development platform includes an extensive set of open-source, performance-optimized libraries that offer out-of-the-box acceleration with minimal to zero-code changes to your existing applications.","installDirectory":"C:/AMDDesignTools/2025.2/Vitis/vitis_libraries","localDirectory":"C:/Users/MahmoudHc/.Xilinx/Vitis/2025.2/vitis_libraries","gitUrl":"https://github.com/Xilinx/Vitis_Libraries.git","gitBranch":"2025.2","gitSubfoldersList":["blas","data_mover","dsp","motor_control","security","solver","ultrasound","utils","vision"],"type":1,"preScript":""}]}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : Frontend u.initialize: 4.0 ms [Finished 1.993 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.initialize: 1.1 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.initialize: 0.0 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.initialize: 0.0 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend Object.initialize: 0.1 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.initialize: 0.0 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend C.initialize: 0.1 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.initialize: 0.1 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend w.initialize: 0.1 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend d.initialize: 0.0 ms [Finished 1.995 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend y.initialize: 2.8 ms [Finished 1.998 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend d.initialize: 0.0 ms [Finished 1.998 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.initialize: 0.0 ms [Finished 1.998 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Rigel Utils Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : [Workspace Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : [Debugger Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : [Repository Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : [Repository Client] Ready to accept calls from the UI widgets. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  updating the model on initialization. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:listAppRepos from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:listAieExampleRepos from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:listHlsExampleRepos from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update requested. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getEmbeddedExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Program Flash Client]  {"0":"Initializaton completed and program flash service is ready in the frontend to receive program flash logs."}
+2025-12-09 10:50:42 [debug] : [Build Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-09 10:50:42 [debug] : [AIE Client] Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-09 10:50:42 [debug] : [Logger Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : Initializaton completed and build service is ready in the frontend to receive build logs. 
+2025-12-09 10:50:42 [debug] : [HLS Flow Client] Initialization completed. 
+2025-12-09 10:50:42 [debug] : Frontend T.initialize took longer than the expected maximum 100 milliseconds: 145.9 ms [Finished 2.144 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.initialize: 0.0 ms [Finished 2.144 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.initialize: 0.1 ms [Finished 2.144 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Program Flash Output] Adding listeners to program flash service. 
+2025-12-09 10:50:42 [debug] : Frontend T.initialize: 0.1 ms [Finished 2.145 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Program Device Output] Adding listeners to program device service. 
+2025-12-09 10:50:42 [debug] : Frontend T.initialize: 0.1 ms [Finished 2.145 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Build Output] Adding listeners to build service. 
+2025-12-09 10:50:42 [debug] : Frontend z.initialize: 0.4 ms [Finished 2.146 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Launch Menu] Adding listeners to manage launch session. 
+2025-12-09 10:50:42 [debug] : [Debug Manager] A debug session listener is registered to receive launch events. 
+2025-12-09 10:50:42 [debug] : Frontend X.initialize: 0.5 ms [Finished 2.146 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend h.initialize: 0.2 ms [Finished 2.147 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.initialize: 0.2 ms [Finished 2.147 s after frontend start] 
+2025-12-09 10:50:42 [debug] : RIGEL SERVER 10:50:42 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD3017438173351926174 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml 
+2025-12-09 10:50:42 [debug] : Frontend h.initialize: 0.1 ms [Finished 2.147 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Adding listeners to preference service. 
+2025-12-09 10:50:42 [debug] : Frontend h.initialize: 0.2 ms [Finished 2.148 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Elf Reader Server] Connection established from backend to the frontend client. 
+2025-12-09 10:50:42 [debug] : [Platform Output] Adding listeners to build service. 
+2025-12-09 10:50:42 [debug] : Frontend B.initialize: 0.2 ms [Finished 2.148 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Elf Reader Client]  {"0":"Rigel Utils Server registered"}
+2025-12-09 10:50:42 [debug] : Frontend v.initialize: 8.9 ms [Finished 2.157 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.initialize: 0.3 ms [Finished 2.158 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [HLS Output] Adding listeners to HLS service. 
+2025-12-09 10:50:42 [debug] : Frontend m.initialize: 0.3 ms [Finished 2.159 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend c.initialize: 0.4 ms [Finished 2.169 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.initialize: 0.5 ms [Finished 2.170 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["fa2c31d1-cea6-4a33-a242-a39ffc5ce6c4",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAieExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] installed_aie_examples:true 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAieExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_hls_examples","repoType":4}}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_examples","repoType":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Elf Reader Client] Initializaton completed. 
+2025-12-09 10:50:42 [debug] : Frontend J.configure: 23.2 ms [Finished 2.194 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.configure: 0.0 ms [Finished 2.194 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend u.configure: 0.4 ms [Finished 2.195 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend $.configure: 0.0 ms [Finished 2.195 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Application UI init preferences 
+2025-12-09 10:50:42 [debug] : [Bootgen Output] Adding listeners to bootgen service. 
+2025-12-09 10:50:42 [debug] : A command rigel.edit.config is already registered. 
+2025-12-09 10:50:42 [debug] : Frontend commands.onStart: 32.5 ms [Finished 2.228 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Received event from notification service: ON_START_ANALYSIS_PROGRESS. 
+2025-12-09 10:50:42 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["8bd0c9eb-5624-4758-a9ce-630e729dc090",null,54,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_examples 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"ai_engine_test_harness","repoType":2}}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_hls_examples 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-09 10:50:42 [debug] : Application UI init preferences 
+2025-12-09 10:50:42 [debug] : Frontend keybindings.onStart: 60.0 ms [Finished 2.288 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend menus.onStart: 10.7 ms [Finished 2.299 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 6.8 ms [Finished 2.306 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 0.5 ms [Finished 2.307 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.onStart: 24.7 ms [Finished 2.332 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.onStart: 8.5 ms [Finished 2.340 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend J.onStart: 0.2 ms [Finished 2.341 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.onStart: 1.1 ms [Finished 2.342 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 6.1 ms [Finished 2.349 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.onStart: 0.2 ms [Finished 2.349 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 0.1 ms [Finished 2.349 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend u.onStart: 1.1 ms [Finished 2.350 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.onStart: 0.1 ms [Finished 2.351 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend $.onStart: 0.1 ms [Finished 2.351 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.351 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend d.onStart: 0.2 ms [Finished 2.351 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 0.4 ms [Finished 2.352 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend u.onStart: 0.1 ms [Finished 2.352 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.onStart: 0.0 ms [Finished 2.352 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend m.onStart: 0.2 ms [Finished 2.352 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend C.onStart: 0.1 ms [Finished 2.353 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend c.onStart: 0.1 ms [Finished 2.353 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend v.onStart: 0.1 ms [Finished 2.356 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend w.onStart: 0.1 ms [Finished 2.356 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.onStart: 0.3 ms [Finished 2.356 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend s.onStart: 0.1 ms [Finished 2.356 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend x.onStart: 0.4 ms [Finished 2.357 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend v.onStart: 0.4 ms [Finished 2.358 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend g.onStart: 0.2 ms [Finished 2.358 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend $.onStart: 0.2 ms [Finished 2.358 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.358 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend h.onStart: 0.0 ms [Finished 2.359 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.onStart: 0.2 ms [Finished 2.359 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend w.onStart: 0.1 ms [Finished 2.359 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend Object.onStart: 0.3 ms [Finished 2.359 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.onStart: 0.4 ms [Finished 2.360 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend T.onStart: 1.4 ms [Finished 2.362 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend f.onStart: 0.1 ms [Finished 2.362 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend l.onStart: 0.4 ms [Finished 2.362 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend H.onStart: 0.0 ms [Finished 2.362 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend $.onStart: 0.1 ms [Finished 2.363 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend n.onStart: 0.0 ms [Finished 2.363 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend a.onStart: 0.0 ms [Finished 2.363 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Frontend $.onStart: 0.0 ms [Finished 2.363 s after frontend start] 
+2025-12-09 10:50:42 [debug] : Received event from notification service: ON_STOP_ANALYSIS_PROGRESS. 
+2025-12-09 10:50:42 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-12-09 10:50:42 [debug] : [Feature Registry] Reading early access data from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\early-access\early-access.json 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] vitis_hls_examples:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getHlsExampleTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":null,"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getHlsExampleTemplateTree from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  Application repository status:2 for id:ai_engine_test_harness 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppRepoState from frontend. {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppRepoState with connection:(object). {"0":"request:","1":{"repoId":"vitis_libraries","repoType":1}}
+2025-12-09 10:50:42 [debug] : [Repository Server] Executed method:getAppRepoState. {"0":"result:","1":{"repoId":"","status":2}}
+2025-12-09 10:50:42 [debug] : [154d3546-dd29-48e3-9524-0ff562019afd] Waiting for backend deployment: 36.0 ms [Finished 2.396 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Repository Server] Executing method:getAppTemplateTree with connection:(object). {"0":"request:","1":{"wrappers_":{},"arrayIndexOffset_":-1,"array":[],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider]  Application repository status:2 for id:vitis_libraries 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] vitis_examples:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] installed_examples:true 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] ai_engine_test_harness:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] vitis_libraries:false 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Repositories model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update requested. 
+2025-12-09 10:50:42 [debug] : [Repository Service] Executing method:getAppTemplateTree from frontend. {"0":"request:"}
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-09 10:50:42 [debug] : [154d3546-dd29-48e3-9524-0ff562019afd] Sync of 18 plugins: 64.9 ms [Finished 2.461 s after frontend start] 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] Templates model update completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] common calling method completed. 
+2025-12-09 10:50:42 [debug] : [Application Examples Provider] refresh completed. 
+2025-12-09 10:50:42 [debug] : [Workspace Server] In 'setWorkspace' with connection:[object Object] request:{"path":"C:\\Users\\MahmoudHc\\Desktop\\temp\\neorv32\\rtl\\system_integration\\neorv32_vivado_ip_work","executionMode":0} 
+2025-12-09 10:50:42 [debug] : no activative navigation {"0":"Error: No active navigation\n    at n.register (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:913236)\n    at n.restoreNavigationLocations (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:25267574)\n    at async n.restoreState (file:///C:/AMDDesignTools/2025.2/Vitis/ide/electron-app/win64/resources/app/lib/frontend/bundle.js:2:25267164)"}
+2025-12-09 10:50:42 [debug] : [Workspace Service] Initializaton completed. Updating workspace 'C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work' in the server from service. 
+2025-12-09 10:50:43 [debug] : Linked preference "workbench.colorCustomizations" not found. 
+2025-12-09 10:50:43 [debug] : Event posted using notification server in backend. {"0":{"wrappers_":{},"arrayIndexOffset_":-1,"array":["082ae0df-b714-4c49-b874-64c4872244f5",null,53,null,null,null,null,"list-reports"],"pivot_":1.7976931348623157e+308,"convertedPrimitiveFields_":{}}}
+2025-12-09 10:50:43 [debug] : [hosted-plugin: 2336] PLUGIN_HOST(2336) starting instance 
+2025-12-09 10:50:43 [debug] : Frontend f.onStart took longer than the expected maximum 100 milliseconds: 341.3 ms [Finished 2.704 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend c.onStart: 0.4 ms [Finished 2.705 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend y.onStart: 2.9 ms [Finished 2.709 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend w.onStart: 0.3 ms [Finished 2.710 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend B.onStart: 0.2 ms [Finished 2.710 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend u.onStart: 0.7 ms [Finished 2.725 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend l.onStart: 4.3 ms [Finished 2.730 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend l.onStart: 0.4 ms [Finished 2.730 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.731 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend p.onStart: 6.4 ms [Finished 2.737 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend d.onStart: 0.3 ms [Finished 2.737 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend u.onStart: 0.1 ms [Finished 2.738 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend E.onStart: 0.5 ms [Finished 2.739 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend d.onStart: 0.1 ms [Finished 2.739 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend u.onStart: 0.3 ms [Finished 2.739 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend c.onStart: 0.4 ms [Finished 2.740 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend c.onStart: 0.3 ms [Finished 2.740 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Frontend l.onStart: 0.1 ms [Finished 2.741 s after frontend start] 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-nano 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4.1-mini 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4-turbo 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/openai/gpt-4o-mini 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-7-sonnet-20250219 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-5-haiku-20241022 
+2025-12-09 10:50:43 [debug] : Vercel AI: Creating or updating model vercel/anthropic/claude-3-opus-20240229 
+2025-12-09 10:50:43 [debug] : Frontend l.onStart: 0.2 ms [Finished 2.741 s after frontend start] 

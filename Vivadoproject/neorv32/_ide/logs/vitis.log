@@ -1,0 +1,109 @@
+13:51:41 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\neorv32
+13:51:42 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\neorv32
+13:51:42 INFO  : cmd.exe, /C, empyro.bat repo -st   C:\AMDDesignTools\2025.2\Vitis\data\embeddedsw
+13:51:44 INFO  : [INFO]: Initializing repositories
+13:51:44 INFO  : [INFO]: Successfully set the EmbeddedSW path, refer .repo.yaml for more details.
+13:51:44 INFO  : Successfully created repository data at C:\Users\MahmoudHc\Desktop\temp\neorv32/_ide\.wsdata
+13:51:44 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD17810365186502877953 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:51:45 INFO  : Embedded Template List generated successfully
+13:52:02 INFO  : Using sdt generation script from C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl
+13:52:02 INFO  : cmd.exe, /C, sdtgen.bat C:\AMDDesignTools\2025.2\Vitis\vitis-server\scripts\platformutil.tcl C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+13:52:08 INFO  : INFO: C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt exists. Files will be overwritten
+13:52:08 INFO  : -xsa C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\design_1_wrapper.xsa
+13:52:08 INFO  : -dir C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt
+13:52:08 INFO  : -board_dts 
+13:52:08 INFO  : -include_dts 
+13:52:08 INFO  : -repo C:/AMDDesignTools/2025.2/Vitis/data/system-device-tree-xlnx
+13:52:08 INFO  : -zocl disable
+13:52:08 INFO  : INFO: [Hsi 55-2053] elapsed time for repository (C:/AMDDesignTools/2025.2/Vitis/data/embeddedsw) loading 1 seconds
+13:52:08 INFO  : SDT generated successfully
+13:52:08 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+13:52:08 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper_temp_platform\design_1_wrapper\hw\sdt\system-top.dts
+13:52:09 INFO  : CPU List generated successfully
+13:52:14 INFO  : Platform platform creation started.
+13:52:14 INFO  : Lopper command for cpu List generation: lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts
+13:52:14 INFO  : cmd.exe, /C, lopper.bat --enhanced --werror -f -O C:\Users\MahmoudHc\Desktop\temp\neorv32\.rigel_lopper -i lop-cpu-oslist.dts C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts
+13:52:15 INFO  : CPU List generated successfully
+13:52:15 INFO  : SDT generated successfully.
+13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_linux\qemu\qemu_args.txt
+13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+13:52:15 INFO  : ZYNQ: Using the QEMU args from install at  : C:\AMDDesignTools\2025.2\Vitis\data\emulation\platforms\zynq\sw\a9_standalone\qemu\qemu_args.txt
+13:52:15 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:15 INFO  : lopper command to generate BSP :empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:15 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t zynq_fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:15 INFO  : cmd.exe, /C, empyro.bat create_bsp -w C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp -p ps7_cortexa9_0 -o standalone -s C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\hw\sdt\system-top.dts -t empty_application -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:33 INFO  : [INFO]: Starting domain creation
+13:52:34 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:52:34 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:52:34 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:52:34 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+13:52:34 INFO  : Domain standalone_ps7_cortexa9_0 added successfully.
+13:52:35 INFO  : [INFO]: Starting domain creation
+13:52:35 INFO  : [INFO]: Generating Domain-specific DTS for ps7_cortexa9_0
+13:52:35 INFO  : [INFO]: Generating required metadata from domain specific DT
+13:52:35 INFO  : [INFO]: Successfully created Domain at C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp
+13:52:35 INFO  : Successfully Generated Domain C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp
+13:52:35 INFO  : lopper command to create baremetal application :empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:35 INFO  : cmd.exe, /C, empyro.bat validate_bsp -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:36 INFO  : Successfully validated template zynq_fsbl
+13:52:36 INFO  : cmd.exe, /C, empyro.bat create_app --src_dir C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl -t zynq_fsbl -d C:\Users\MahmoudHc\Desktop\temp\neorv32\platform\zynq_fsbl\zynq_fsbl_bsp -n fsbl -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:52:40 ERROR : [INFO]: Generating Linker script for zynq_fsbl
+13:52:40 ERROR : CMake Error at CMakeLists.txt:68 (add_executable):
+13:52:40 ERROR :   Cannot find source file:
+13:52:40 ERROR : 
+13:52:40 ERROR :     ps7_init.c
+13:52:40 ERROR : 
+13:52:40 ERROR :   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+13:52:40 ERROR :   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+13:52:40 ERROR : 
+13:52:40 ERROR : 
+13:52:40 ERROR : CMake Error at CMakeLists.txt:68 (add_executable):
+13:52:40 ERROR :   No SOURCES given to target: fsbl.elf
+13:52:40 ERROR : 
+13:52:40 ERROR : 
+13:52:40 ERROR : CMake Generate step failed.  Build files cannot be regenerated correctly.
+13:52:40 ERROR : [ERROR]: Command 'cmake -G "Ninja" C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl  -DCMAKE_LIBRARY_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/lib -DCMAKE_INCLUDE_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/include -DCMAKE_MODULE_PATH=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp -DCMAKE_TOOLCHAIN_FILE=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/cortexa9_toolchain.cmake -DCMAKE_SPECS_FILE=C:/Users/MahmoudHc/Desktop/temp/neorv32/platform/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec  > NUL' returned non-zero exit status 1.
+13:52:40 ERROR : [ERROR]: Failed to generate compile_commands.json
+13:52:40 ERROR : Error in creating Baremetal Application.
+13:52:41 ERROR : Failed to create platform: platform. Error in creating platform 'platform.'
+13:53:25 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD10059834704906606999 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+13:53:25 INFO  : Embedded Template List generated successfully
+10:49:56 INFO  : updated workspace path: C:\Users\MahmoudHc\Desktop\temp\neorv32
+10:49:57 INFO  : created .gitignore file for the project C:\Users\MahmoudHc\Desktop\temp\neorv32
+10:49:57 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD18177850478674255869 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
+10:49:57 INFO  : Embedded Template List generated successfully
+10:50:17 INFO  : BSP build will be initiated for Domain zynq_fsbl
+10:50:17 INFO  : BSP build will be initiated for Domain standalone_ps7_cortexa9_0
+10:50:17 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:17 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:17 INFO  : lopper command to reconfigure BSP :empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:17 INFO  : cmd.exe, /C, empyro.bat reconfig_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:18 INFO  : Domain reconfigured successfully
+10:50:18 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:18 INFO  : Domain reconfigured successfully
+10:50:18 INFO  : Generating BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:18 INFO  : lopper command to build BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:18 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:18 ERROR : [ERROR]: Command 'cmake --build . --parallel 22 ' returned non-zero exit status 1.
+10:50:18 ERROR : [ERROR]: Failed to build the BSP
+10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/gcc/translation_table.S.obj 
+10:50:18 ERROR : FAILED: libsrc/xiltimer/src/CMakeFiles/xiltimer.dir/core/default_timer/globaltimer_sleep_zynq.c.obj 
+10:50:18 ERROR : FAILED: libsrc/standalone/src/CMakeFiles/xilstandalone.dir/arm/cortexa9/xil_misc_psreset_api.c.obj 
+10:50:18 ERROR : Domain build is not successful. Domain path 'C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp'.
+10:50:19 INFO  : Domain build successfully
+10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.'
+10:50:19 ERROR : Error in generating platform. Error in generating platform 'platform1.'
+10:50:24 INFO  : Cleaning BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp
+10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp --clean
+10:50:24 INFO  : Cleaning BSP for the domain C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp
+10:50:24 INFO  : lopper command to clean BSP :empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp --clean
+10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\zynq_fsbl\zynq_fsbl_bsp --clean
+10:50:24 INFO  : cmd.exe, /C, empyro.bat build_bsp -d C:\Users\MahmoudHc\Desktop\temp\neorv32\rtl\system_integration\neorv32_vivado_ip_work\platform1\ps7_cortexa9_0\standalone_ps7_cortexa9_0\bsp --clean
+10:50:25 INFO  : Domain clean successfully
+10:50:25 INFO  : Domain clean successfully
+10:50:25 INFO  : Clean Platform successfully for platform1
+10:50:42 INFO  : cmd.exe, /C, empyro.bat get_template_data -d C:\Users\MAHMOU~1\AppData\Local\Temp\rigel_lopper_MAHMOUD3017438173351926174 -r C:\Users\MahmoudHc\Desktop\temp\neorv32\_ide\.wsdata\.repo.yaml
